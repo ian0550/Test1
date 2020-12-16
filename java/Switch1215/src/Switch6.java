@@ -27,6 +27,7 @@ public class Switch6 {
 			break;
 		case "/" : 
 			System.out.printf("%d%s%d = %d\n", (int)num1, op, (int)num2, (int)(num1/num2));
+			System.out.println(num1 + "/" + num2 + "=" + (num1/num2));
 			break;
 		}
 		s.close();
