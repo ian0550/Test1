@@ -2,7 +2,6 @@
 public class IF1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int num = 99;
 		
 		if (num < 100 ) {
