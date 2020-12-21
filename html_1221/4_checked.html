@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 137 페이지 */
+        /* check박스를 체크하면, 그 바로 뒤에 있는 태그가 사라짐 */
+        input[type=checkbox]:checked+div
+        {
+            height:300px;
+        }
+        /* 아직 안 배운거긴 함 (주석처리 ctrl+/)*/
+        div
+        {
+            overflow: hidden;
+            width: 650px;
+            height:0px;
+            -ms-transiton-duration : 1s;
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</body>
+</html>
