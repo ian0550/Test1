@@ -1,0 +1,7 @@
+D:\Test1\csharp\1228\ConsileApp1\ConsileApp1\bin\Debug\ConsileApp1.exe.config
+D:\Test1\csharp\1228\ConsileApp1\ConsileApp1\bin\Debug\ConsileApp1.exe
+D:\Test1\csharp\1228\ConsileApp1\ConsileApp1\bin\Debug\ConsileApp1.pdb
+D:\Test1\csharp\1228\ConsileApp1\ConsileApp1\obj\Debug\ConsileApp1.csprojAssemblyReference.cache
+D:\Test1\csharp\1228\ConsileApp1\ConsileApp1\obj\Debug\ConsileApp1.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\1228\ConsileApp1\ConsileApp1\obj\Debug\ConsileApp1.exe
+D:\Test1\csharp\1228\ConsileApp1\ConsileApp1\obj\Debug\ConsileApp1.pdb
