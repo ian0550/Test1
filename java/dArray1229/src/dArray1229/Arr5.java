@@ -55,11 +55,11 @@ public class Arr5 {
 		
 		int lotto[] = new int[5];
 		for (int i = 0; i < 5; i++) {
-			lotto[i] = (int)(Math.random()*5+1);
+			lotto[i] = (int)(Math.random()*45+1);
 			for (int j = 1; j <= i; j++) {
 				
 				if(lotto[i] == lotto[j] && i!=j) {
-					lotto[i] = (int)(Math.random()*5+1);
+					lotto[i] = (int)(Math.random()*45+1);
 				}
 				
 			}
