@@ -17,15 +17,7 @@ public class csharp1 {
 		}
 
 		Arrays.sort(arry);
-//        int temp=arry[0];
-//        int min =0;
-//        for (int i = 0; i < arry.length; i++) {
-//			if(temp<arry[i]) {
-//				temp = arry[i];
-//			}else {
-//				min = arry[i];
-//			}
-//		}
+		
         System.out.printf("최소값 : %d, 최대값 : %d", arry[0], arry[arr-1]);
 	}
 

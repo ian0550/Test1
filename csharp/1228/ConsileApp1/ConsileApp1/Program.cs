@@ -60,6 +60,11 @@ namespace ConsileApp1
                 mul *= num;
             }
             Console.WriteLine(mul);
+
+            //for (int i = 0; i < mul; i++)
+            //{
+            //    ab[i] = 
+            //}
         }
     }
 }
