@@ -87,6 +87,19 @@ public class Method7 {
 
 		System.out.println("\n\n8¹ø¹®Á¦------------------");
 		gugu2();
+		
+		short num1 = 22;
+       short num2 = 11;
+       int result = num1+num2;
+       System.out.println(result);
+       
+       for (int i = 2; i < 10; i++) {
+			for (int j = 1; j < 10; j++) {
+				System.out.printf("%d X %d = %d \n", i, j, (i * j));
+				}
+		}
+	
+       
 	}
 
 }
