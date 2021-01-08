@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <style>
+        /* class는 여러개를 쓸 수 있고 id(#)는 하나만 쓸 수 있음 */
+        /* 초기화 코드 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            border: 0;
+        }
+
+        /* 헤더파트 */
+        #main_header {
+            width: 960px;
+            margin: 0 auto;
+            /* 이 두 줄은 중앙정렬 */
+            height: 160px;
+            position: relative;
+        }
+
+        #main_header>#title {
+            position: absolute;
+            left: 20px;
+            top: 30px;
+        }
+
+        #main_header>#main_gnb {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        #main_header>#main_lnb {
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+        }
+
+        #title {
+            font-family: 'Yeon Sung', cursive;
+        }
+
+        /* gnb */
+        #main_gnb>ul {
+            overflow: hidden;
+        }
+
+        #main_gnb>ul>li {
+            float: left;
+        }
+
+        #main_gnb>ul>li>a {
+            display: block;
+            padding: 2px 10px;
+            border: 1px solid gray;
+        }
+
+        #main_gnb>ul>li>a:hover {
+            background: gray;
+            color: white;
+        }
+
+        /* lnb */
+        #main_lnb>ul {
+            overflow: hidden;
+        }
+
+        #main_lnb>ul>li {
+            float: left;
+        }
+
+        #main_lnb>ul>li>a {
+            display: block;
+            padding: 10px 20px;
+            border: 1px solid gray;
+        }
+
+        #main_lnb>ul>li>a:hover {
+            background: gray;
+            color: white;
+        }
+
+        #main_gnb>ul>li:first-child>a {
+            border-radius: 10px 0 0 10px;
+        }
+
+        #main_gnb>ul>li:last-child>a {
+            border-radius: 0 10px 10px 0;
+        }
+
+        #main_lnb>ul>li:first-child>a {
+            border-radius: 15px 0 0 15px;
+        }
+
+        #main_lnb>ul>li:last-child>a {
+            border-radius: 0 15px 15px 0;
+        }
+
+        /* 콘텐츠 */
+        #content {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #content>#main_section {
+            width: 750px;
+            float: left;
+            background-color: greenyellow;
+        }
+
+        #content>#main_aside {
+            width: 200px;
+            float: right;
+            background-color: gold;
+        }
+
+        /* 본문 */
+        /* id가 main_section인 자손이 article.main태그이면서 태그이름이 main_article인 녀석에 적용 */
+        #main_section>article.main_article
+        {
+            margin-bottom: 10px;
+            padding: 20px;
+            border: 1px solid gray;
+        }
+
+        input:nth-of-type(1) {display: none;}
+        input:nth-of-type(1)~div:nth-of-type(1){display: none;}
+        input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+        input:nth-of-type(2) {display: none;}
+        input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+        input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+
+        section.buttons{overflow: hidden;}
+        section.buttons>label{display: block; float: left;
+            width: 100px; height: 30px;
+            line-height: 30px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid black;
+            background: black;
+            color: white;}
+
+            input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1)
+            {
+                background: white;
+                color: black;
+            }
+            input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2)
+            {
+                background: white;
+                color: black;
+            }
+    </style>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+
+</head>
+
+<body>
+    <header id="main_header">
+        <div id="title">
+            <h1>Lorem, ipsum.</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+        </div>
+        <!-- 261p -->
+        <!-- gnb : global navigation bar -->
+        <!-- lnb : local navigation bar -->
+        <nav id="main_gnb">
+            <ul>
+                <!-- (li>a[href=#])*4 -->
+                <li><a href="#">one</a></li>
+                <li><a href="#">two</a></li>
+                <li><a href="#">three</a></li>
+                <li><a href="#">four</a></li>
+            </ul>
+        </nav>
+        <nav id="main_lnb">
+            <ul>
+                <li><a href="#">하나</a></li>
+                <li><a href="#">둘</a></li>
+                <li><a href="#">셋</a></li>
+                <li><a href="#">넷</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <section id="main_section">
+            <article class="main_article">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, numquam!</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, numquam!</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, numquam!</p>
+            </article>
+        </section>
+        <aside id="main_aside">
+            <input type="radio" name="tab" id="first" checked>
+            <input type="radio" name="tab" id="second">
+            <section class="buttons">
+                <label for="first">first</label>
+                <label for="second">second</label>
+            </section>
+            <div class ="tab_item">
+                <ul>
+                    <!-- (li>a[href=#]{$$})*4 -->
+                    <li><a href="#">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><a href="#">04</a></li>
+                </ul>
+            </div>
+            <div class ="tab_item">
+                <ul>
+                    <ul>
+                        <!-- (li>a[href=#]{$$})*4 -->
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
