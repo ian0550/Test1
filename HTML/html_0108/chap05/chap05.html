@@ -173,6 +173,36 @@
                 background: white;
                 color: black;
             }
+            .item{
+                overflow: hidden;
+                padding: 10px;
+                border: 1px solid black;
+                border-top: none;
+            }
+
+            .thumbnail {
+                float: left;
+            }
+
+            .description{
+                float: left;
+                margin-left: 10px;
+            }
+            .description > strong {
+                display: block;
+                width: 120px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            #main_footer {
+                width: 960px; margin: 0 auto;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                padding: 10px;
+                border: 1px solid black;
+                text-align: center;
+            }
     </style>
     <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
 
@@ -230,26 +260,69 @@
             <div class ="tab_item">
                 <ul>
                     <!-- (li>a[href=#]{$$})*4 -->
-                    <li><a href="#">01</a></li>
-                    <li><a href="#">02</a></li>
-                    <li><a href="#">03</a></li>
-                    <li><a href="#">04</a></li>
+                    <li><a href="#">css3 Transition</a></li>
+                    <li><a href="#">CSS3 Animation</a></li>
+                    <li><a href="#">CSS3 Border</a></li>
+                    <li><a href="#">CSS3 Box</a></li>
                 </ul>
             </div>
             <div class ="tab_item">
                 <ul>
                     <ul>
                         <!-- (li>a[href=#]{$$})*4 -->
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
+                        <li class="item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://picsum.photos/id/30/30/30" alt="">
+                                </div>
+                                <div class="description">
+                                    <strong>HTML5 Canvas</strong>
+                                    <p>2019-03-15</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://picsum.photos/id/30/30/30" alt="">
+                                </div>
+                                <div class="description">
+                                    <strong>HTML5 Audio</strong>
+                                    <p>2019-03-15</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://picsum.photos/id/30/30/30" alt="">
+                                </div>
+                                <div class="description">
+                                    <strong>HTML5 Video</strong>
+                                    <p>2019-03-15</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="https://picsum.photos/id/30/30/30" alt="">
+                                </div>
+                                <div class="description">
+                                    <strong>HTML5 Semantic Web</strong>
+                                    <p>2019-03-15</p>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </ul>
             </div>
         </aside>
     </div>
-    <footer></footer>
+    <footer id="main_footer">
+        <h3>HTML5 + CSS3 Basic</h3>
+        <address>Website Layout basic</address>
+    </footer>
 </body>
 
 </html>
