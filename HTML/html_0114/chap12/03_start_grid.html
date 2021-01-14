@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-columns: 2fr 8fr; /* 2대 8 */
+            grid-template-rows: 500px 1000px; /* 위쪽은 500 아래는 1000 */
+            gap: 10px; /* Gutter랑 똑같은 거 */
+        }
+
+        .container>div
+        {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>header</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, dolores!</p>
+        </div>
+        <div class="aside">
+            <h1>aside</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda nam qui quasi eum? Vero odio voluptas ipsum, animi esse ea.</p>
+        </div>
+        <div class="section">
+            <h1>section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi amet sit asperiores similique laudantium error minus eius perferendis illo maxime?</p>
+        </div>
+        <div class="footer">
+            <h1>footer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam perferendis culpa maiores natus sint, voluptatem ad ducimus! Sed est eligendi vel illum nobis earum voluptate minima nihil, magni ab alias enim culpa corrupti omnis eos non minus nam rem!</p>
+        </div>
+    </div>
+</body>
+</html>
