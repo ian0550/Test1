@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title>무료 웹툰 보기</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .video
+    {
+      width: 600px;
+      margin: 0 auto;
+      height:400px;
+      padding: 20px;
+    }
+
+    .video_size
+    {
+      height: 550px;
+    }
+
+    .card-text {
+      /* display: block;
+      width: 300px; */
+
+      /* 글자 생략 3형제 */
+      /* white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; */
+      display: inline-block; width: 300px; 
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+
+      white-space: normal; 
+      line-height: 1.2; height: 3.6em; 
+      text-align: left; word-wrap: break-word; 
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+
+    }
+
+    div>h4{
+      padding: 15px;
+    }
+
+    #title {
+            font-family: 'East Sea Dokdo', cursive;
+        }
+
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="album.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">요일별 웹툰의 인기순 정렬 방식이 추가되었습니다.</h4>
+            <p class="text-muted">네이버웹툰을 애용해주시는 독자분들이 보다 편리하게 요일별 연재작품을 확인하실 수 있도록,
+              조회순으로 제공되던 네이버웹툰의 요일별 목록을 
+              로그인이용자의 성별에 따른 '인기순' 정렬로 제공하게 되어 안내공지를 드립니다.</p>
+              <p class="text-muted">* 인기순 : 일정기간 동안 특정 작품을 감상한 독자의 수 순위</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://comic.naver.com/notice/list.nhn" class="text-white">네이버 공지사항</a></li>
+              <li><a href="http://webtoon.daum.net/bbs/notice/#page_no=1" class="text-white">다음 공지사항</a></li>
+              <li><a href="https://novel.naver.com/webnovel/weekday.nhn" class="text-white">네이버 웹소설</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-danger shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg " width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> -->
+          <img src="iconmonstr-cat-4-32.png" alt="">
+          <strong> Webtoon</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>2021년 1월 유료화 전환 작품 안내</h1>
+        <p class="lead text-muted">1. 극야
+          2. 날 가져요
+          3. 링크보이
+          4. 물레
+          5. 사우러스
+          6. 사이드킥 2~3
+          7. 수능일기
+          8. 운수 오진 날
+          9. 유미의 세포들
+          10. 커넥트</p>
+        <p>
+          <a href="https://comic.naver.com/index.nhn" class="btn btn-primary my-2">네이버 웹툰 바로가기</a>
+          <a href="http://webtoon.daum.net/" class="btn btn-primary my-2">다음 웹툰 바로가기</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="bg-light">
+
+      <div class="container bg-light"><h4>네이버 웹툰</h4></div>
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                <img src="고래별.png" alt="">
+                <div class="card-body">
+                  <h5>고래별 / 나윤희</h5>
+                  <p class="card-text">
+                    1926년 일제 식민 지배 하의 조선. 
+                      17세 소녀 수아는 군산 일대 친일파 대지주의 집에서 몸종으로 일하고 있다.
+                      어느 날 수아는 부상을 입은 채 해변가에 쓰러져 있는 독립운동가 의현을 발견하고, 그를 보호하게 되는데...
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://comic.naver.com/webtoon/list.nhn?titleId=729767&weekday=fri">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                      </a>
+                      <a href="https://comic.naver.com/artistTitle.nhn?artistId=302692">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                      </a>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+  
+                <img src="독립.png" alt="">
+                <div class="card-body">
+                  <h5>독립일기 / 자까</h5>
+                  <p class="card-text">
+                      처음으로 나만의 집이 생긴다면?
+                      자까 작가의 나혼자 사는 이야기
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://comic.naver.com/webtoon/list.nhn?titleId=748105&weekday=thu">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                      </a>
+                      <a href="https://comic.naver.com/artistTitle.nhn?artistId=301511">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                      </a>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                <img src="소녀.png" alt="">
+                <div class="card-body">
+                  <h5>소녀의 세계 / 모랑지</h5>
+                  <p class="card-text">
+                    완벽해 보이지만 사실 외로웠던 백조들과 맘씨 착한 오리가 만나
+                    여러 갈등을 함께 겪으며 진짜 친구가 되어가는 소녀들의 찐 우정물
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://comic.naver.com/webtoon/list.nhn?titleId=654774&weekday=mon">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                      </a>
+                      <a href="https://comic.naver.com/artistTitle.nhn?artistId=289382">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                      </a>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                <img src="유일.png" alt="">
+                <div class="card-body">
+                  <h5>유일무이 로맨스 / 두부</h5>
+                  <p class="card-text">
+                    평범한 취준생 공유일의 일상에
+                    인기절정 탑배우 탁무이와 아이돌 류민이 침범해오기 시작했다!
+                    사심가득 탑스타♥
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://comic.naver.com/webtoon/list.nhn?titleId=709731&weekday=mon">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                      </a>
+                      <a href="https://comic.naver.com/artistTitle.nhn?artistId=316952">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                      </a>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                <img src="집이.png" alt="">
+                <div class="card-body">
+                  <h5>집이 없어 / 와난</h5>
+                  <p class="card-text">
+                    집을 버리고 뛰쳐나간 고해준, 집 없이 텐트 생활하는 문제아 백은영.
+                    악연으로 만난 두 사람은 버려진 옛날 기숙사에서 함께 살게 되는데..
+                    기숙사도 서로도 싫지만 돌아갈 곳이 없는 두 사람의 힘든 성장 이야기
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://comic.naver.com/webtoon/list.nhn?titleId=721433&weekday=tue">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                      </a>
+                      <a href="https://comic.naver.com/artistTitle.nhn?artistId=82">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                      </a>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                <img src="1초.png" alt="">
+                <div class="card-body">
+                  <h5>1초 / 시니/광운</h5>
+                  <p class="card-text">
+                    구조율 100%의 전설적인 소방관.
+                    그의 특별한 능력은 긴장하는 순간, 미래가 보인다는 것!
+                    촌각을 다투는 진짜 소방관들의 이야기
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://comic.naver.com/webtoon/list.nhn?titleId=725586&weekday=fri">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                      </a>
+                      <a href="https://comic.naver.com/artistTitle.nhn?artistId=237961">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                      </a>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light">
+      <div class="container bg-light"><h4>다음 웹툰</h4></div>
+    
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="경이-d.png" alt="">
+              <div class="card-body">
+                <h5>경이로운 소문 / 장이</h5>
+                <p class="card-text">
+                  영원불멸의 삶을 위해 지구로 내려온 사후세계 악한 영혼들. 그들을 잡는 카운터들의 이야기.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="http://webtoon.daum.net/webtoon/view/AmazingRumor">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                    </a>
+                    <a href="http://webtoon.daum.net/webtoon/view/perfect">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="소녀신선-d.png" alt="">
+              <div class="card-body">
+                <h5>소녀신선 / 효미</h5>
+                <p class="card-text">
+                  재수생 하버들, 신선이 되어 성질 드러운 이무기 '꽝철이'와 만나다
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="http://webtoon.daum.net/webtoon/view/girlsinsun">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                    </a>
+                    <a href="http://webtoon.daum.net/webtoon/view/godstime">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="주간-d.png" alt="">
+              <div class="card-body">
+                <h5>주간소년열애사 / 박시인</h5>
+                <p class="card-text">
+                  한 집에 사는 고등학생 5명의 '열애치정 드라마', 매주 금요일에 찾아갑니다.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="http://webtoon.daum.net/webtoon/view/weeklyboys">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">보러가기</button>
+                    </a>
+                    <a href="http://webtoon.daum.net/webtoon/view/p_dinner">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">작가의 다른작품</button>
+                    </a>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light video_size">
+    <div class="container" id="title"><h1>경이로운 소문 드라마 제작</h1></div>
+      <div class="video">
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6JQBHKLrHCw" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  </section>
+  </main>
+
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+      <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
+          href="../getting-started/introduction/">getting started guide</a>.</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script>
+    window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+  </script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
