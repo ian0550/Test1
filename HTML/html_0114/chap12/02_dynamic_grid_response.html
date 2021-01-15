@@ -13,7 +13,7 @@
             }
         }
 
-        /* 최소 768px부터는 이 괄호 안에 있는 스타일들이 적용됨. */
+        /* 화면이 최소 768px부터 최대 959px일 땐 동적그리드 적용 */
         @media screen and (min-width: 768px) and (max-width: 959px) {
             .container {
                 /* 중앙정렬 */
@@ -36,6 +36,7 @@
             .row [class*=span] {
                 float: left;
                 margin-left: 2%;
+                /* Gutter 적용함(여백) */
             }
 
             .row [class*=span]:first-child {
@@ -107,6 +108,7 @@
 
         }
 
+        /* 화면이 960px 크기일 때부터는 정적 그리드를 적용 */
         @media screen and (min-width: 960px) {
             .container {
                 width: 960px;

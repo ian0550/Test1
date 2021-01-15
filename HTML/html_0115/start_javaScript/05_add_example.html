@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="one" type="text"><span>+</span>
+    <input id="two" type="text"><span>=</span>
+    <span id="result">결과가 여기에 나옴</span>
+    <div>
+        <input type="button" value="합" onclick="sum()">
+    </div>
+
+    <input id="one1" type="text"><span>-</span>
+    <input id="two1" type="text"><span>=</span>
+    <span id="result1">결과가 여기에 나옴</span>
+    <div>
+        <input type="button" value="합" onclick="sub()">
+    </div>
+    <input id="one2" type="text"><span>*</span>
+    <input id="two2" type="text"><span>=</span>
+    <span id="result2">결과가 여기에 나옴</span>
+    <div>
+        <input type="button" value="합" onclick="mul()">
+    </div>
+    <input id="one3" type="text"><span>/</span>
+    <input id="two3" type="text"><span>=</span>
+    <span id="result3">결과가 여기에 나옴</span>
+    <div>
+        <input type="button" value="합" onclick="div()">
+    </div>
+    <script>
+        function sum() {
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            alert(Number(one) + Number(two));
+            document.getElementById('result').innerText=Number(one) + Number(two);
+        }
+        function sub() {
+            var one1 = document.getElementById('one1').value;
+            var two1 = document.getElementById('two1').value;
+            alert(Number(one1) - Number(two1));
+            document.getElementById('result1').innerText=Number(one1) - Number(two1);
+        }
+        function mul() {
+            var one2 = document.getElementById('one2').value;
+            var two2 = document.getElementById('two2').value;
+            alert(Number(one2) * Number(two2));
+            document.getElementById('result2').innerText=Number(one2) * Number(two2);
+        }
+        function div() {
+            var one3 = document.getElementById('one3').value;
+            var two3 = document.getElementById('two3').value;
+            alert(Number(one3) / Number(two3));
+            document.getElementById('result3').innerText=Number(one3) / Number(two3);
+        }
+    </script>
+</body>
+</html>
