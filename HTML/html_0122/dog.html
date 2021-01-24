@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>jQuery(제이쿼리) 강좌와 예제모음 : 만들어보기 : 귀여운 강아지들을 달리게 해보자</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+
+<div style="text-align:center; margin:0 0 100px 0; background:#555; line-height:80px;">
+	<a style="color:#fff; font-weight:bold; font-family:tahoma; font-size:20pt;" href="https://ktsmemo.cafe24.com/s/jquery/129" target="_blank">https://ktsmemo.cafe24.com/s/jquery/129</a>
+</div>
+
+
+<!-- 예제 시작 -->
+
+<style type="text/css">
+
+.dog_land {
+	background-image:url('dog_run.gif');
+	background-position:center;
+	background-repeat:repeat-x; /* 배경이미지 가로로 반복 */
+	background-size:724px; /* 이미지 원래 사이즈보다 2배 크게 설정 (가로기준) */
+	bottom:0; /* 하단 기준 0 위치로 */
+	height:200px;
+	left:0;
+	position:fixed; /* 위치 고정 (스크롤해도 이동 하지 않음) */
+	width:100%; /* position:fixed 일때는 너비를 지정해 줘야 함 */
+	display:none;
+	z-index:100;
+}
+
+</style>
+
+<div class="dog_land"></div>
+<button type="button" class="" onclick="$('.dog_land').slideDown()">달려!!</button>
+<button type="button" class="" onclick="$('.dog_land').slideUp()">그만!!</button>
+
+<script>
+
+	// setInterval 을 이용해서 계속 실행
+	setInterval(function(){
+		$('.dog_land').css({ 'background-position' : '-=7' });
+	}, 20);
+
+</script>
+
+<!-- 예제 종료 -->
+
+
+</body>
+</html>
