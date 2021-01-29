@@ -1,0 +1,15 @@
+D:\Git\Test1\csharp\winform0129\winform0129\bin\Debug\netcoreapp3.1\winform0129.exe
+D:\Git\Test1\csharp\winform0129\winform0129\bin\Debug\netcoreapp3.1\winform0129.deps.json
+D:\Git\Test1\csharp\winform0129\winform0129\bin\Debug\netcoreapp3.1\winform0129.runtimeconfig.json
+D:\Git\Test1\csharp\winform0129\winform0129\bin\Debug\netcoreapp3.1\winform0129.runtimeconfig.dev.json
+D:\Git\Test1\csharp\winform0129\winform0129\bin\Debug\netcoreapp3.1\winform0129.dll
+D:\Git\Test1\csharp\winform0129\winform0129\bin\Debug\netcoreapp3.1\winform0129.pdb
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.csprojAssemblyReference.cache
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.Form1.resources
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.csproj.GenerateResource.cache
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.AssemblyInfoInputs.cache
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.AssemblyInfo.cs
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.csproj.CoreCompileInputs.cache
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.dll
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.pdb
+D:\Git\Test1\csharp\winform0129\winform0129\obj\Debug\netcoreapp3.1\winform0129.genruntimeconfig.cache

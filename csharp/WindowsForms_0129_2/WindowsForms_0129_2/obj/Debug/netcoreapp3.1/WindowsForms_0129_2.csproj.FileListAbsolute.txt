@@ -1,0 +1,15 @@
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\bin\Debug\netcoreapp3.1\WindowsForms_0129_2.exe
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\bin\Debug\netcoreapp3.1\WindowsForms_0129_2.deps.json
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\bin\Debug\netcoreapp3.1\WindowsForms_0129_2.runtimeconfig.json
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\bin\Debug\netcoreapp3.1\WindowsForms_0129_2.runtimeconfig.dev.json
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\bin\Debug\netcoreapp3.1\WindowsForms_0129_2.dll
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\bin\Debug\netcoreapp3.1\WindowsForms_0129_2.pdb
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.csprojAssemblyReference.cache
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.Form1.resources
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.csproj.GenerateResource.cache
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.AssemblyInfoInputs.cache
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.AssemblyInfo.cs
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.csproj.CoreCompileInputs.cache
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.dll
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.pdb
+D:\Git\Test1\csharp\WindowsForms_0129_2\WindowsForms_0129_2\obj\Debug\netcoreapp3.1\WindowsForms_0129_2.genruntimeconfig.cache

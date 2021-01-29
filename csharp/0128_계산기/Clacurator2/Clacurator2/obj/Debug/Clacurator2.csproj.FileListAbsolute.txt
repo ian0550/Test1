@@ -1,0 +1,10 @@
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\obj\Debug\Clacurator2.csprojAssemblyReference.cache
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\obj\Debug\Clacurator2.Form1.resources
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\obj\Debug\Clacurator2.Properties.Resources.resources
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\obj\Debug\Clacurator2.csproj.GenerateResource.cache
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\obj\Debug\Clacurator2.csproj.CoreCompileInputs.cache
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\bin\Debug\Clacurator2.exe.config
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\bin\Debug\Clacurator2.exe
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\bin\Debug\Clacurator2.pdb
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\obj\Debug\Clacurator2.exe
+D:\Git\Test1\csharp\Clacurator2\Clacurator2\obj\Debug\Clacurator2.pdb
