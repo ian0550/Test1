@@ -1,0 +1,10 @@
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\bin\Debug\WindowsForm0201.exe.config
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\bin\Debug\WindowsForm0201.exe
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\bin\Debug\WindowsForm0201.pdb
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\obj\Debug\WindowsForm0201.csprojAssemblyReference.cache
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\obj\Debug\WindowsForm0201.Form1.resources
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\obj\Debug\WindowsForm0201.Properties.Resources.resources
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\obj\Debug\WindowsForm0201.csproj.GenerateResource.cache
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\obj\Debug\WindowsForm0201.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\obj\Debug\WindowsForm0201.exe
+D:\Test1\csharp\WindowsForm0201\WindowsForm0201\obj\Debug\WindowsForm0201.pdb
