@@ -1,0 +1,7 @@
+D:\Test1\csharp\carApp_0208\carApp_0208\bin\Debug\carApp_0208.exe.config
+D:\Test1\csharp\carApp_0208\carApp_0208\bin\Debug\carApp_0208.exe
+D:\Test1\csharp\carApp_0208\carApp_0208\bin\Debug\carApp_0208.pdb
+D:\Test1\csharp\carApp_0208\carApp_0208\obj\Debug\carApp_0208.csprojAssemblyReference.cache
+D:\Test1\csharp\carApp_0208\carApp_0208\obj\Debug\carApp_0208.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\carApp_0208\carApp_0208\obj\Debug\carApp_0208.exe
+D:\Test1\csharp\carApp_0208\carApp_0208\obj\Debug\carApp_0208.pdb

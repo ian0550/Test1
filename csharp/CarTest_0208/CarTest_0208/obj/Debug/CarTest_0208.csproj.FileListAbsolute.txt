@@ -1,0 +1,7 @@
+D:\Test1\csharp\CarTest_0208\CarTest_0208\obj\Debug\CarTest_0208.csprojAssemblyReference.cache
+D:\Test1\csharp\CarTest_0208\CarTest_0208\obj\Debug\CarTest_0208.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\CarTest_0208\CarTest_0208\bin\Debug\CarTest_0208.exe.config
+D:\Test1\csharp\CarTest_0208\CarTest_0208\bin\Debug\CarTest_0208.exe
+D:\Test1\csharp\CarTest_0208\CarTest_0208\bin\Debug\CarTest_0208.pdb
+D:\Test1\csharp\CarTest_0208\CarTest_0208\obj\Debug\CarTest_0208.exe
+D:\Test1\csharp\CarTest_0208\CarTest_0208\obj\Debug\CarTest_0208.pdb

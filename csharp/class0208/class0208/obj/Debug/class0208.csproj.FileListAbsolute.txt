@@ -1,0 +1,7 @@
+D:\Test1\csharp\class0208\class0208\bin\Debug\class0208.exe.config
+D:\Test1\csharp\class0208\class0208\bin\Debug\class0208.exe
+D:\Test1\csharp\class0208\class0208\bin\Debug\class0208.pdb
+D:\Test1\csharp\class0208\class0208\obj\Debug\class0208.csprojAssemblyReference.cache
+D:\Test1\csharp\class0208\class0208\obj\Debug\class0208.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\class0208\class0208\obj\Debug\class0208.exe
+D:\Test1\csharp\class0208\class0208\obj\Debug\class0208.pdb
