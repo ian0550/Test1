@@ -179,8 +179,8 @@ void loop() {
 //
 //      for (int i=0; i<sizeof(hakGyo)/sizeof(int); i++) {
 //      tone(BUZZER, hakGyo[i], 50);
-//      Play_Pirates();
-Play_Titanic();
+      Play_Pirates();
+//Play_Titanic();
 
       delay(DELAY);
     }
