@@ -58,6 +58,13 @@ namespace carApp_0208
             set { color = value; }
         }
 
+        /*
+        // 람다식
+        public string Color1 { get => color; set => color = value; }
+        public string Price1 { get => price; set => price = value; }
+        public string Model1 { get => model; set => model = value; }
+        */
+
         public void showCarInfo()
         {
             Console.WriteLine("제조사 :" + company);
