@@ -15,6 +15,8 @@ namespace class0215
         private int avg;
         private char hakjum;
 
+        public StudentScore() { }
+
         public StudentScore(int kor, int eng, int math)
         {
             this.kor = kor;
