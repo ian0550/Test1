@@ -47,18 +47,22 @@ namespace adressTest0218
                         sh.randDataID();
                         break;
                     case MENU_DELETE:
+                        Console.WriteLine("이름으로 정보 삭제");
                         sh.delItem();
                         break;
                     case MENU_UPDATE:
-                        sh.updateItem();
+                        Console.WriteLine("주소록 정보 수정");
+                        sh.updateItem(); 
                         break;
                     case MENU_DELETE_ALL:
+                        Console.WriteLine("모든 데이터 삭제");
                         sh.delItemAll();
                         break;
                     //case MENU_ADD_ID:
                     //    delItemAll();
                     //    break;
                     case MENU_DELETE_ID:
+                        Console.WriteLine("아이디로 데이터 삭제");
                         sh.delItemID();
                         break;
                     case MUNU_EXIT:
