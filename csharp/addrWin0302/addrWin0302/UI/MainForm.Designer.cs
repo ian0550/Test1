@@ -48,7 +48,7 @@ namespace addrWin0302
             this.addrAdd.BackColor = System.Drawing.SystemColors.Window;
             this.addrAdd.ButtonType = CxFlatUI.ButtonType.Primary;
             this.addrAdd.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.addrAdd.Location = new System.Drawing.Point(264, 142);
+            this.addrAdd.Location = new System.Drawing.Point(288, 132);
             this.addrAdd.Name = "addrAdd";
             this.addrAdd.Size = new System.Drawing.Size(152, 55);
             this.addrAdd.TabIndex = 0;
@@ -61,7 +61,7 @@ namespace addrWin0302
             this.addrView.BackColor = System.Drawing.SystemColors.GrayText;
             this.addrView.ButtonType = CxFlatUI.ButtonType.Primary;
             this.addrView.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.addrView.Location = new System.Drawing.Point(264, 219);
+            this.addrView.Location = new System.Drawing.Point(288, 229);
             this.addrView.Name = "addrView";
             this.addrView.Size = new System.Drawing.Size(152, 55);
             this.addrView.TabIndex = 1;
@@ -74,7 +74,7 @@ namespace addrWin0302
             this.addrAddRand.BackColor = System.Drawing.SystemColors.GrayText;
             this.addrAddRand.ButtonType = CxFlatUI.ButtonType.Primary;
             this.addrAddRand.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.addrAddRand.Location = new System.Drawing.Point(264, 297);
+            this.addrAddRand.Location = new System.Drawing.Point(288, 326);
             this.addrAddRand.Name = "addrAddRand";
             this.addrAddRand.Size = new System.Drawing.Size(152, 55);
             this.addrAddRand.TabIndex = 2;
@@ -87,7 +87,7 @@ namespace addrWin0302
             this.addrUpdate.BackColor = System.Drawing.SystemColors.GrayText;
             this.addrUpdate.ButtonType = CxFlatUI.ButtonType.Primary;
             this.addrUpdate.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.addrUpdate.Location = new System.Drawing.Point(444, 297);
+            this.addrUpdate.Location = new System.Drawing.Point(468, 326);
             this.addrUpdate.Name = "addrUpdate";
             this.addrUpdate.Size = new System.Drawing.Size(152, 55);
             this.addrUpdate.TabIndex = 5;
@@ -100,7 +100,7 @@ namespace addrWin0302
             this.addrDelAll.BackColor = System.Drawing.SystemColors.GrayText;
             this.addrDelAll.ButtonType = CxFlatUI.ButtonType.Primary;
             this.addrDelAll.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.addrDelAll.Location = new System.Drawing.Point(444, 219);
+            this.addrDelAll.Location = new System.Drawing.Point(468, 229);
             this.addrDelAll.Name = "addrDelAll";
             this.addrDelAll.Size = new System.Drawing.Size(152, 55);
             this.addrDelAll.TabIndex = 4;
@@ -113,7 +113,7 @@ namespace addrWin0302
             this.addrDel.BackColor = System.Drawing.SystemColors.GrayText;
             this.addrDel.ButtonType = CxFlatUI.ButtonType.Primary;
             this.addrDel.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.addrDel.Location = new System.Drawing.Point(444, 142);
+            this.addrDel.Location = new System.Drawing.Point(468, 132);
             this.addrDel.Name = "addrDel";
             this.addrDel.Size = new System.Drawing.Size(152, 55);
             this.addrDel.TabIndex = 3;
@@ -142,7 +142,7 @@ namespace addrWin0302
             this.cxFlatPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox1.Image")));
             this.cxFlatPictureBox1.Location = new System.Drawing.Point(1, 67);
             this.cxFlatPictureBox1.Name = "cxFlatPictureBox1";
-            this.cxFlatPictureBox1.Size = new System.Drawing.Size(237, 383);
+            this.cxFlatPictureBox1.Size = new System.Drawing.Size(270, 383);
             this.cxFlatPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.cxFlatPictureBox1.TabIndex = 7;
             this.cxFlatPictureBox1.TabStop = false;
@@ -194,7 +194,7 @@ namespace addrWin0302
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(616, 452);
+            this.ClientSize = new System.Drawing.Size(667, 452);
             this.Controls.Add(this.addrExit);
             this.Controls.Add(this.addrHelp);
             this.Controls.Add(this.cxFlatPictureBox1);
@@ -206,6 +206,7 @@ namespace addrWin0302
             this.Controls.Add(this.addrView);
             this.Controls.Add(this.addrAdd);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).EndInit();
             this.ResumeLayout(false);

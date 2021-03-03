@@ -14,3 +14,4 @@ D:\Test1\csharp\addrWin0302\addrWin0302\bin\Debug\SunnyUI.dll
 D:\Test1\csharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.CopyComplete
 D:\Test1\csharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache
 D:\Test1\csharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.AddForm.resources
+D:\Test1\csharp\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.ViewForm.resources

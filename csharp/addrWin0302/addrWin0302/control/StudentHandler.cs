@@ -8,6 +8,8 @@ namespace adressTest0218.control
 {
     class StudentHandler
     {
+        static StudentHandler inst;
+
         static Random r = new Random();
 
         List<Student> addrList = new List<Student>();
@@ -16,7 +18,16 @@ namespace adressTest0218.control
         {
             return addrList;
         }
-        public void randDataID()
+
+        public static StudentHandler getInst()
+        {
+            if(inst == null)
+            {
+                inst = new StudentHandler();
+            }
+            return inst;
+        }
+        public void randData(int count)
         {
             string[] name = { "홍길동", "김길동", "이길동", "박길동", "최길동" };
             string[] tel = { "010-1111-1111", "010-2222-2222", "010-3333-3333", "010-4444-4444", "010-5555-5555" };
@@ -24,7 +35,7 @@ namespace adressTest0218.control
             string[] email = { "hong@naver.com", "kim@naver.com", "lee@naver.com", "park@naver.com", "choi@naver.com" };
 
             //Random r = new Random();
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < count; i++)
             {
                 addrList.Add(new Student(getId(), name[r.Next(0, 5)], tel[r.Next(0, 5)], adress[r.Next(0, 5)], email[r.Next(0, 5)]));
             }

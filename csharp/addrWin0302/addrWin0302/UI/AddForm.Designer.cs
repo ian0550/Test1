@@ -45,7 +45,7 @@ namespace addrWin0302.UI
             // 
             this.uiSymbolLabel1.BackColor = System.Drawing.SystemColors.Window;
             this.uiSymbolLabel1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolLabel1.Location = new System.Drawing.Point(65, 110);
+            this.uiSymbolLabel1.Location = new System.Drawing.Point(181, 125);
             this.uiSymbolLabel1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel1.Name = "uiSymbolLabel1";
             this.uiSymbolLabel1.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
@@ -60,7 +60,7 @@ namespace addrWin0302.UI
             this.addName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.addName.FillColor = System.Drawing.Color.White;
             this.addName.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addName.Location = new System.Drawing.Point(232, 110);
+            this.addName.Location = new System.Drawing.Point(348, 125);
             this.addName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.addName.Maximum = 2147483647D;
             this.addName.Minimum = -2147483648D;
@@ -74,7 +74,7 @@ namespace addrWin0302.UI
             // 
             this.uiSymbolLabel2.BackColor = System.Drawing.SystemColors.Window;
             this.uiSymbolLabel2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolLabel2.Location = new System.Drawing.Point(65, 165);
+            this.uiSymbolLabel2.Location = new System.Drawing.Point(181, 180);
             this.uiSymbolLabel2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel2.Name = "uiSymbolLabel2";
             this.uiSymbolLabel2.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
@@ -88,7 +88,7 @@ namespace addrWin0302.UI
             // 
             this.uiSymbolLabel3.BackColor = System.Drawing.SystemColors.Window;
             this.uiSymbolLabel3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolLabel3.Location = new System.Drawing.Point(65, 221);
+            this.uiSymbolLabel3.Location = new System.Drawing.Point(181, 236);
             this.uiSymbolLabel3.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel3.Name = "uiSymbolLabel3";
             this.uiSymbolLabel3.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
@@ -102,7 +102,7 @@ namespace addrWin0302.UI
             // 
             this.uiSymbolLabel4.BackColor = System.Drawing.SystemColors.Window;
             this.uiSymbolLabel4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolLabel4.Location = new System.Drawing.Point(65, 279);
+            this.uiSymbolLabel4.Location = new System.Drawing.Point(181, 294);
             this.uiSymbolLabel4.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel4.Name = "uiSymbolLabel4";
             this.uiSymbolLabel4.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
@@ -117,7 +117,7 @@ namespace addrWin0302.UI
             this.addTel.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.addTel.FillColor = System.Drawing.Color.White;
             this.addTel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addTel.Location = new System.Drawing.Point(232, 171);
+            this.addTel.Location = new System.Drawing.Point(348, 186);
             this.addTel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.addTel.Maximum = 2147483647D;
             this.addTel.Minimum = -2147483648D;
@@ -132,7 +132,7 @@ namespace addrWin0302.UI
             this.addAddres.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.addAddres.FillColor = System.Drawing.Color.White;
             this.addAddres.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addAddres.Location = new System.Drawing.Point(232, 227);
+            this.addAddres.Location = new System.Drawing.Point(348, 242);
             this.addAddres.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.addAddres.Maximum = 2147483647D;
             this.addAddres.Minimum = -2147483648D;
@@ -147,7 +147,7 @@ namespace addrWin0302.UI
             this.addEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.addEmail.FillColor = System.Drawing.Color.White;
             this.addEmail.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addEmail.Location = new System.Drawing.Point(232, 285);
+            this.addEmail.Location = new System.Drawing.Point(348, 300);
             this.addEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.addEmail.Maximum = 2147483647D;
             this.addEmail.Minimum = -2147483648D;
@@ -163,7 +163,7 @@ namespace addrWin0302.UI
             this.addOK.FillHoverColor = System.Drawing.Color.RoyalBlue;
             this.addOK.FillPressColor = System.Drawing.Color.RoyalBlue;
             this.addOK.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addOK.Location = new System.Drawing.Point(124, 352);
+            this.addOK.Location = new System.Drawing.Point(240, 367);
             this.addOK.MinimumSize = new System.Drawing.Size(1, 1);
             this.addOK.Name = "addOK";
             this.addOK.Size = new System.Drawing.Size(100, 35);
@@ -178,7 +178,7 @@ namespace addrWin0302.UI
             this.addCancel.FillColor = System.Drawing.Color.Gray;
             this.addCancel.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(131)))), ((int)(((byte)(229)))));
             this.addCancel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.addCancel.Location = new System.Drawing.Point(261, 352);
+            this.addCancel.Location = new System.Drawing.Point(377, 367);
             this.addCancel.MinimumSize = new System.Drawing.Size(1, 1);
             this.addCancel.Name = "addCancel";
             this.addCancel.RectColor = System.Drawing.Color.Gray;
@@ -194,7 +194,7 @@ namespace addrWin0302.UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 423);
+            this.ClientSize = new System.Drawing.Size(667, 452);
             this.Controls.Add(this.addCancel);
             this.Controls.Add(this.addOK);
             this.Controls.Add(this.addEmail);

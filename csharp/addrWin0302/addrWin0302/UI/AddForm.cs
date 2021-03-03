@@ -16,7 +16,10 @@ namespace addrWin0302.UI
     partial class AddForm : MaterialForm
     {
         StudentHandler sc;
-       
+       public AddForm()
+        {
+            InitializeComponent();
+        }
         public AddForm(StudentHandler sc)
         {
             InitializeComponent();
@@ -29,9 +32,26 @@ namespace addrWin0302.UI
             {
                 MessageBox.Show("이름을 입력하세요.");
             }
+            else if(addTel.Text == "")
+            {
+                MessageBox.Show("번호를 입력하세요.");
+            }
+            else if (addAddres.Text == "")
+            {
+                MessageBox.Show("번호를 입력하세요.");
+            }
+            else if (addEmail.Text == "")
+            {
+                MessageBox.Show("번호를 입력하세요.");
+            }
             //string name = addName.Text;
 
-            sc.getList().Add(new Student(sc.getId(), addName.Text, addTel.Text, addAddres.Text, addEmail.Text));
+            StudentHandler.getInst().getList().Add(
+                new Student(
+                    StudentHandler.getInst().getId(), addName.Text, addTel.Text, 
+                    addAddres.Text, addEmail.Text));
+            MessageBox.Show("정상적으로 데이터가 입력되었습니다.");
+            Close();
         }
 
         private void addCancel_Click(object sender, EventArgs e)
