@@ -4,8 +4,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-import util.myMenu;
-
 public class JdbcTest {
 	static final int CREATE_TABLE = 1;
 	static final int DEL_TABLE = 2;
@@ -28,11 +26,10 @@ public class JdbcTest {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		MyConnect c = new MyConnect();
-		myMenu menu = new myMenu();
 //		connectDB();
 		c.connectDB();
 		while (true) {
-			switch (menu.menu(s)) {
+			switch (menu(s)) {
 			case CREATE_TABLE:
 				c.createTable();
 				break;
@@ -114,22 +111,22 @@ public class JdbcTest {
 		}
 	}
 
-//	public static int menu(Scanner s) {
-//		System.out.println("--------------------");
-//		System.out.println(" MySQL DB 관리 v1.0 ");
-//		System.out.println("--------------------");
-//		System.out.println("1. 테이블 생성");
-//		System.out.println("2. 테이블 삭제");
-//		System.out.println("3. 데이터 추가");
-//		System.out.println("4. 데이터 보기");
-//		System.out.println("5. 랜덤 데이터 추가");
-//		System.out.println("6. 데이터 수정");
-//		System.out.println("7. 데이터 삭제");
-//		System.out.println("8. 프로그램 종료");
-//		System.out.println("--------------------");
-//		System.out.println("메인 메뉴 선택");
-//		return s.nextInt();
-//	}
+	public static int menu(Scanner s) {
+		System.out.println("--------------------");
+		System.out.println(" MySQL DB 관리 v1.0 ");
+		System.out.println("--------------------");
+		System.out.println("1. 테이블 생성");
+		System.out.println("2. 테이블 삭제");
+		System.out.println("3. 데이터 추가");
+		System.out.println("4. 데이터 보기");
+		System.out.println("5. 랜덤 데이터 추가");
+		System.out.println("6. 데이터 수정");
+		System.out.println("7. 데이터 삭제");
+		System.out.println("8. 프로그램 종료");
+		System.out.println("--------------------");
+		System.out.println("메인 메뉴 선택");
+		return s.nextInt();
+	}
 	
 	public static void dropTB() {
 		String query = "drop table addrbook ";

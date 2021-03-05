@@ -1,31 +1,30 @@
+package com.ia.addrApp.dao;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Scanner;
 
-public class MyConnect {
-	static Connection con;
-	static Statement state;
-	static final String USER_ID = "root";
-	static final String USER_PW = "1126";
-	static final String DBNAME = "test0224";
+import com.ia.addrApp.model.AddrBook;
+
+public class MySQLHandler {
+	Connection con;
+	Statement state;
+	final String USER_ID = "root";
+	final String USER_PW = "1126";
+	final String DBNAME = "test0224";
 	
-	static String jdbcDriver = "com.mysql.cj.jdbc.Driver";
-	static String dbUrl = "jdbc:mysql://127.0.0.1/"+ DBNAME + "?autoReconnect=true&serverTimezone=UTC&testOnBorrow=True&validationQuery=select 1";
+	String jdbcDriver = "com.mysql.cj.jdbc.Driver";
+	String dbUrl = "jdbc:mysql://127.0.0.1/"+ DBNAME + "?autoReconnect=true&serverTimezone=UTC&testOnBorrow=True&validationQuery=select 1";
 //	static String dbUrl = "jdbc:mysql://loclahost/"+ DBNAME + "?autoReconnect=true&useSSL=false";
 //	jdbc:mysql://localhost:3306/test?autoReconnect=true"
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	
+	public MySQLHandler() {
 		connectDB();
-		insertDB();
-		showDB();
-		closeDB();
 	}
-
-	public static void connectDB() {
+	
+	public void connectDB() {
 		try {
 			Class.forName(jdbcDriver).newInstance();
 			con = DriverManager.getConnection(dbUrl,USER_ID,USER_PW);
@@ -49,7 +48,7 @@ public class MyConnect {
 		}
 	}
 	
-	public static void closeDB() {
+	public void closeDB() {
 		try {
 				con.close();
 				System.out.println("DB 접속 해제");
@@ -59,7 +58,7 @@ public class MyConnect {
 		}
 	}
 	
-	public static void createTable() {
+	public void createTable() {
 //		System.out.println("테이블 명을 입력해주세요 : ");
 //		Scanner s = new Scanner(System.in);
 //		String tname = s.nextLine();
@@ -79,18 +78,10 @@ public class MyConnect {
 		}
 	}
 	
-	public static void insertDB() {
-		String query = "insert into addrbook values " + 
-				   "(0,'홍길동',100,'hong@naver.com','010-5555-1234','조선한양홍대감댁',now())";
-				   
-				      
-	      String name = "전우치";
-	      int age = 200;
-	      String email = "jon@kakao.com";
-	      String tel = "010-111-1234";
-	      String addr = "조선 두메 산골";
-	      String query2 = String.format("insert into addrbook (id,name,age,tel,addr,email,date)"
-	            +" values(0,'%s',%d,'%s','%s','%s',now())",name,age,tel,addr,email);
+	public void insertDB(AddrBook ab) {
+		String query2 = String.format("insert into addrbook (name, age, tel, addr, email, date)"
+	            +" values('%s',%d,'%s','%s','%s', now())",
+	            ab.getName(),ab.getAge(),ab.getTel(),ab.getAddress(),ab.getEmail());
 
 		try {
 			state.executeUpdate(query2);
@@ -104,15 +95,15 @@ public class MyConnect {
 		}
 	}
 	
-	public static void showDB() {
+	public void showDB() {
 		String query = "select * from addrbook ";
 		try {
 			ResultSet rs = state.executeQuery(query);
 			if(rs != null) {
 				rs = state.getResultSet();
-				int count = 0;
+				int count = 1;
 				while (rs.next()) {
-					System.out.print(count+ "\t");
+					System.out.print(rs.getString("id")+ "\t");
 					System.out.print(rs.getString("name")+"\t");
 					System.out.print(rs.getString("age")+"\t");
 					System.out.print(rs.getString("email")+"\t");
@@ -129,7 +120,7 @@ public class MyConnect {
 		}
 	}
 	
-	public static void dropTB() {
+	public void dropTB() {
 		String query = "drop table addrbook ";
 		try {
 			state.executeUpdate(query);
@@ -138,7 +129,7 @@ public class MyConnect {
 		}
 	}
 	
-	public static void checkError(SQLException e) {
+	public void checkError(SQLException e) {
 		switch(e.getErrorCode()) {
 		case 1050 :
 			System.out.println("테이블이 이미 존재합니다.");
@@ -155,7 +146,7 @@ public class MyConnect {
 		}
 	}
 	
-	 public static void randData()
+	 public void randData()
      {
          String[] name = { "홍길동", "김길동", "이길동", "박길동", "최길동" };
          int[] age = {20, 30, 40, 50, 60};
@@ -182,9 +173,4 @@ public class MyConnect {
      		}
          }
      }
-	 
-	 
-
-
-	
 }
