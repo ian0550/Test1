@@ -1,4 +1,6 @@
-﻿using MaterialSkin.Controls;
+﻿using adressTest0218;
+using adressTest0218.control;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,13 +13,21 @@ using System.Windows.Forms;
 
 namespace addrWin0302.UI
 {
-    public partial class ViewForm : MaterialForm
+    partial class ViewForm : MaterialForm
     {
-        public ViewForm()
+        StudentHandler sc;
+
+        public ViewForm(StudentHandler sc)
         {
             InitializeComponent();
-            initListView();
+            //initListView();
+            this.sc = sc;
         }
+        //public ViewForm()
+        //{
+        //    InitializeComponent();
+        //    initListView();
+        //}
 
         private void initListView()
         {
@@ -41,7 +51,44 @@ namespace addrWin0302.UI
             listView.EnsureVisible(index);
 
         }
+        private void showList()
+        {
+            int cnt = sc.getList().Count;
+            for(int i=0; i<cnt; i++)
+            {
+                List<Student> addrList = sc.getList();
+                listView.Items.Add(new ListViewItem(new string[]
+                {
+                    (i+1).ToString(),
+                    addrList[i].Name,
+                    addrList[i].Tel,
+                    addrList[i].Address,
+                    addrList[i].Email
 
+                }
+                ));
+            }
+
+        }
+        private void showGridView()
+        {
+            int cnt = sc.getList().Count;
+            for (int i = 0; i < cnt; i++)
+            {
+                List<Student> addrList = sc.getList();
+                gridView.Rows.Add(new string[]
+                {
+                    (i+1).ToString(),
+                    addrList[i].Name,
+                    addrList[i].Tel,
+                    addrList[i].Address,
+                    addrList[i].Email
+
+                }
+                );
+            }
+
+        }
         private void setRowColor(ListView list, Color color1, Color color2)
         {
             foreach(ListViewItem item in list.Items)
@@ -59,13 +106,15 @@ namespace addrWin0302.UI
 
         private void ViewForm_Load(object sender, EventArgs e)
         {
-            initListView();
-            initGridView();
+            //initListView();
+            showList();
+            //initGridView();
+            showGridView();
         }
         private void initGridView()
         {
-            string[] data = { "1", "홍길동", "010-3333-4444", "조선 한양 홍감댁", "hong@naver.com" };
-            gridView.Rows.Add(data);
+            //string[] data = { "1", "홍길동", "010-3333-4444", "조선 한양 홍감댁", "hong@naver.com" };
+            //gridView.Rows.Add(data);
             for (int i = 0; i < 50; i++)
             {
                 gridView.Rows.Add(new string[]
@@ -83,6 +132,28 @@ namespace addrWin0302.UI
         private void viewExit_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void listView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(listView.SelectedItems.Count != 0)
+            {
+                int n = listView.SelectedItems[0].Index;
+                string name = listView.Items[n].SubItems[1].Text;
+                string tel = listView.Items[n].SubItems[2].Text;
+                string addr = listView.Items[n].SubItems[3].Text;
+                string email = listView.Items[n].SubItems[4].Text;
+                Console.WriteLine("이름 : {0}", name);
+                Console.WriteLine("전화 : {0}", tel);
+                Console.WriteLine("주소 : {0}", addr);
+                Console.WriteLine("메일 : {0}", email);
+                Console.WriteLine("-----------------------");
+            }
+        }
+
+        private void listView_DoubleClick(object sender, EventArgs e)
+        {
+
         }
     }
 }

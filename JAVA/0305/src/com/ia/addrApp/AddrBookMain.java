@@ -33,8 +33,16 @@ public class AddrBookMain {
 				db.insertDB(data.getABook());
 				break;
 			case Menu.UPDATE_DATA:
+				System.out.println("변경할 ID를 입력해주세요 : ");
+				String seID = s.next();
+				System.out.println("수정할 이름을 입력해주세요 : ");
+				String fixName = s.next();
+				db.updateData(seID, fixName);
 				break;
 			case Menu.DEL_DATA:
+				System.out.println("삭제 할 이름을 입력해주세요 : ");
+				String delName = s.next();
+				db.delteDB(delName);
 				break;
 			case Menu.MAIN_EXIT:
 				System.out.println("");

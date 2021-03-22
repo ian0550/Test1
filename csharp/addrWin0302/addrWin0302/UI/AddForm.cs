@@ -58,5 +58,10 @@ namespace addrWin0302.UI
         {
             Close();
         }
+
+        private void addName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

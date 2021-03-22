@@ -47,8 +47,8 @@ namespace addrWin0302
 
         private void addrView_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().viewItem();
-            new ViewForm().ShowDialog();
+            sc.viewItem();
+            new ViewForm(sc).ShowDialog();
         }
 
         private void addrAddRand_Click(object sender, EventArgs e)
@@ -56,28 +56,39 @@ namespace addrWin0302
             string cnt = myInputBox("랜덤 데이터 생성",
                 "랜덤하게 데이터를 생성할 갯수를 입력하세요.", "0");
             if (cnt == "") return;
-            StudentHandler.getInst().randData(Convert.ToInt32(cnt));
+            sc.randData(Convert.ToInt32(cnt));
         }
 
         private void addrDel_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().delItem();
+            string cnt = myInputBox("데이터 삭제",
+                "삭제할 데이터를 입력하세요.", "0");
+            if (cnt == "") return;
+            sc.delItem(cnt);
         }
 
         private void addrDelAll_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().delItemAll();
+            sc.delItemAll();
         }
 
         private void addrUpdate_Click(object sender, EventArgs e)
         {
-            StudentHandler.getInst().updateItem();
+            sc.viewItem();
+            new ViewForm(sc).ShowDialog();
+            //sc.updateItem();
         }
 
         private string myInputBox(string title, string body, string prompt)
         {
             string input = Microsoft.VisualBasic.Interaction.InputBox(title, body, prompt, -1, -1);
             return input;
+        }
+
+        private void uiSymbolLabel1_Click(object sender, EventArgs e)
+        {
+            new AddForm().ShowDialog();
+
         }
     }
 }

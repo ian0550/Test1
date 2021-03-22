@@ -1,0 +1,5 @@
+D:\Test1\csharp\addrWin0309_1\addrWin0309_1\obj\Debug\addrWin0309_1.csprojAssemblyReference.cache
+D:\Test1\csharp\addrWin0309_1\addrWin0309_1\obj\Debug\addrWin0309_1.MainForm.resources
+D:\Test1\csharp\addrWin0309_1\addrWin0309_1\obj\Debug\addrWin0309_1.Properties.Resources.resources
+D:\Test1\csharp\addrWin0309_1\addrWin0309_1\obj\Debug\addrWin0309_1.csproj.GenerateResource.cache
+D:\Test1\csharp\addrWin0309_1\addrWin0309_1\obj\Debug\addrWin0309_1.csproj.CoreCompileInputs.cache
