@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Test0311" path="/Test0311" reloadable="true" source="org.eclipse.jst.jee.server:Test0311"/><Context docBase="diretive" path="/diretive" reloadable="true" source="org.eclipse.jst.jee.server:diretive"/><Context docBase="script" path="/script" reloadable="true" source="org.eclipse.jst.jee.server:script"/><Context docBase="control0318" path="/control0318" reloadable="true" source="org.eclipse.jst.jee.server:control0318"/><Context docBase="scope0318" path="/scope0318" reloadable="true" source="org.eclipse.jst.jee.server:scope0318"/></Host>
+      <Context docBase="Test0311" path="/Test0311" reloadable="true" source="org.eclipse.jst.jee.server:Test0311"/><Context docBase="diretive" path="/diretive" reloadable="true" source="org.eclipse.jst.jee.server:diretive"/><Context docBase="script" path="/script" reloadable="true" source="org.eclipse.jst.jee.server:script"/><Context docBase="control0318" path="/control0318" reloadable="true" source="org.eclipse.jst.jee.server:control0318"/><Context docBase="scope0318" path="/scope0318" reloadable="true" source="org.eclipse.jst.jee.server:scope0318"/><Context docBase="webapp0325" path="/webapp0325" reloadable="true" source="org.eclipse.jst.jee.server:webapp0325"/></Host>
     </Engine>
   </Service>
 </Server>

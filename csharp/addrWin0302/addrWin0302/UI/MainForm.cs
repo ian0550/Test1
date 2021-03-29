@@ -72,11 +72,10 @@ namespace addrWin0302
             sc.delItemAll();
         }
 
-        private void addrUpdate_Click(object sender, EventArgs e)
+        private void AddrUpdate_Click(object sender, EventArgs e)
         {
             sc.viewItem();
             new ViewForm(sc).ShowDialog();
-            //sc.updateItem();
         }
 
         private string myInputBox(string title, string body, string prompt)

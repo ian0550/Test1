@@ -1,0 +1,29 @@
+CREATE table namecard (
+    id INT NOT NULL,
+    name VARCHAR(10) NOT NULL,
+    tel VARCHAR(20)NOT NULL,
+    email VARCHAR(30) NULL,
+    address VARCHAR(50) NOT NULL,
+    CONSTRAINT namecard_PK PRIMARY KEY(id));
+
+CREATE SEQUENCE namecard
+START WITH 1
+INCREMENT BY 1;
+
+INSERT INTO namecard (id, name, tel, email, address)
+VALUES (1, '홍길동', '010-1111-1111', 'hong@namver.com', '조선 한양 홍대감댁');
+INSERT INTO namecard (id, name, tel, email, address)
+VALUES (2, '김길동', '010-2222-2222', 'kim@naver.com', '조선 한양 김대감댁');
+INSERT INTO namecard (id, name, tel, email, address)
+VALUES (3, '박길동', '010-3333-3333', 'park@naver.com', '조선 한양 박대감댁');
+
+select * from namecard where name like '%동' order by name desc;
+
+update namecard set name='전우치' where name ='김길동'; 
+
+select * from namecard where name like '%동' order by name asc;
+
+delete from namecard where name ='전우치';
+
+CREATE TABLE namecard_copy AS
+SELECT * FROM namecard where name='전우치';

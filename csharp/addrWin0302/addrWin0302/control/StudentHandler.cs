@@ -13,7 +13,7 @@ namespace adressTest0218.control
 
         static Random r = new Random();
 
-        List<Student> addrList = new List<Student>();
+        readonly List<Student> addrList = new List<Student>();
 
         public List<Student> getList()
         {
@@ -85,7 +85,7 @@ namespace adressTest0218.control
             //Console.WriteLine("------------------");
             //Console.WriteLine("삭제할 이름: ");
 
-            string name = cnt;
+            
 
             for (int i = 0; i < addrList.Count; i++)
             {

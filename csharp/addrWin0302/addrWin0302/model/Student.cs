@@ -9,7 +9,6 @@ namespace adressTest0218
     class Student
     {
         private string id;
-        private string name;
         private string tel;
         private string address;
         private string email;
@@ -31,7 +30,7 @@ namespace adressTest0218
         public Student(string id, string name, string tel, string address, string email)
         {
             this.id = id;
-            this.name = name;
+            this.Name = name;
             this.tel = tel;
             this.address = address;
             this.email = email;
@@ -47,7 +46,7 @@ namespace adressTest0218
 
 
 
-        public string Name { get => name; set => name = value; }
+        public string Name { get; set; }
         public string Tel { get => tel; set => tel = value; }
         public string Address { get => address; set => address = value; }
         public string Email { get => email; set => email = value; }
@@ -55,7 +54,7 @@ namespace adressTest0218
 
         public void showAddress()
         {
-            Console.WriteLine("이름 : {0}", name);
+            Console.WriteLine("이름 : {0}", Name);
             Console.WriteLine("전화 : " + tel);
             Console.WriteLine("주소 : " + address);
             Console.WriteLine("이메일 : " + email);

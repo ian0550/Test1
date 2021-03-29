@@ -28,21 +28,27 @@ namespace addrWin0302.UI
 
         private void addOK_Click(object sender, EventArgs e)
         {
-            if(addName.Text == "")
+            Boolean cnt=true;
+            while (cnt)
             {
-                MessageBox.Show("이름을 입력하세요.");
-            }
-            else if(addTel.Text == "")
-            {
-                MessageBox.Show("번호를 입력하세요.");
-            }
-            else if (addAddres.Text == "")
-            {
-                MessageBox.Show("번호를 입력하세요.");
-            }
-            else if (addEmail.Text == "")
-            {
-                MessageBox.Show("번호를 입력하세요.");
+                if (addName.Text == "" && cnt==true)
+                {
+                    cnt = false;
+                    MessageBox.Show("이름을 입력하세요.");
+                }
+                else if (addTel.Text == "" && cnt == true)
+                {
+                    cnt = false;
+                    MessageBox.Show("번호를 입력하세요.");
+                }
+                else if (addAddres.Text == "")
+                {
+                    MessageBox.Show("번호를 입력하세요.");
+                }
+                else if (addEmail.Text == "")
+                {
+                    MessageBox.Show("번호를 입력하세요.");
+                }
             }
             //string name = addName.Text;
 
@@ -59,9 +65,9 @@ namespace addrWin0302.UI
             Close();
         }
 
-        private void addName_TextChanged(object sender, EventArgs e)
+        private void AddName_TextChanged(object sender, EventArgs e)
         {
-
+            // Method intentionally left empty.
         }
     }
 }

@@ -93,7 +93,7 @@ namespace addrWin0302
             this.addrUpdate.TabIndex = 5;
             this.addrUpdate.Text = "주소록 수정";
             this.addrUpdate.TextColor = System.Drawing.Color.White;
-            this.addrUpdate.Click += new System.EventHandler(this.addrUpdate_Click);
+            this.addrUpdate.Click += new System.EventHandler(this.AddrUpdate_Click);
             // 
             // addrDelAll
             // 
