@@ -1,4 +1,6 @@
 ﻿using CarManager0323.DB;
+using CarManager0323.Handler;
+using CarManager0323.Model;
 using CarManager0323.UI;
 using MaterialSkin.Controls;
 using Sunny.UI;
@@ -17,6 +19,8 @@ namespace CarManager0323
     public partial class MainForm : MaterialForm
     {
         DaoOracle ora = new DaoOracle();
+
+        DealHandler dHandler = new DealHandler();
         public MainForm()
         {
             InitializeComponent();
@@ -56,22 +60,29 @@ namespace CarManager0323
 
         private void insertCar_Click(object sender, EventArgs e)
         {
-            new CarInsForm(ora).ShowDialog();
+            new CarInsForm(ora, dHandler).ShowDialog();
         }
 
         private void insertDeal_Click(object sender, EventArgs e)
         {
-           
+            List<Deal> list = dHandler.getDealList();
+            if( list[0].Car==null || list[0].Customer==null || list[0].Seller== null)
+            {
+                MessageBox.Show("구매 내역 정보가 누락되었습니다.");
+                return;
+            }
+            ora.insertDeal(list[0]);
+            dHandler.dealListClear();
         }
 
         private void insertCustom_Click(object sender, EventArgs e)
         {
-            new CustInsForm().ShowDialog();
+            new CustInsForm(ora, dHandler).ShowDialog();
         }
 
         private void insertSeller_Click(object sender, EventArgs e)
         {
-            new SellerInsForm().ShowDialog();
+            new SellerInsForm(ora, dHandler).ShowDialog();
         }
 
         private void appExit_Click(object sender, EventArgs e)

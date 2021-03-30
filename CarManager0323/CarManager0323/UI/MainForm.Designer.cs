@@ -176,8 +176,6 @@ namespace CarManager0323
         }
 
         #endregion
-
-        private Sunny.UI.UIButton createTB;
         private Sunny.UI.UIButton dropTB;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Sunny.UI.UISymbolButton insertAll;
@@ -186,6 +184,7 @@ namespace CarManager0323
         private Sunny.UI.UISymbolButton insertDeal;
         private Sunny.UI.UISymbolButton insertCustom;
         private Sunny.UI.UISymbolButton appExit;
+        private Sunny.UI.UIButton createTB;
     }
 }
 

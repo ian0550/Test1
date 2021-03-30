@@ -31,15 +31,15 @@ namespace CarManager0323.UI
         {
             this.sellerCancel = new Sunny.UI.UISymbolButton();
             this.sellerOK = new Sunny.UI.UISymbolButton();
-            this.sellerMail = new Sunny.UI.UITextBox();
+            this.sellerEmail = new Sunny.UI.UITextBox();
             this.sellerJikwi = new Sunny.UI.UITextBox();
-            this.sellerTell = new Sunny.UI.UITextBox();
+            this.sellerTel = new Sunny.UI.UITextBox();
             this.uiSymbolLabel4 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel3 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel2 = new Sunny.UI.UISymbolLabel();
             this.sellerName = new Sunny.UI.UITextBox();
             this.uiSymbolLabel1 = new Sunny.UI.UISymbolLabel();
-            this.sellerCompany = new Sunny.UI.UITextBox();
+            this.sellerOffice = new Sunny.UI.UITextBox();
             this.uiSymbolLabel5 = new Sunny.UI.UISymbolLabel();
             this.SuspendLayout();
             // 
@@ -73,21 +73,22 @@ namespace CarManager0323.UI
             this.sellerOK.Style = Sunny.UI.UIStyle.Custom;
             this.sellerOK.TabIndex = 40;
             this.sellerOK.Text = "확 인";
+            this.sellerOK.Click += new System.EventHandler(this.sellerOK_Click);
             // 
-            // sellerMail
+            // sellerEmail
             // 
-            this.sellerMail.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.sellerMail.FillColor = System.Drawing.Color.White;
-            this.sellerMail.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.sellerMail.Location = new System.Drawing.Point(279, 270);
-            this.sellerMail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.sellerMail.Maximum = 2147483647D;
-            this.sellerMail.Minimum = -2147483648D;
-            this.sellerMail.MinimumSize = new System.Drawing.Size(1, 1);
-            this.sellerMail.Name = "sellerMail";
-            this.sellerMail.Padding = new System.Windows.Forms.Padding(5);
-            this.sellerMail.Size = new System.Drawing.Size(166, 29);
-            this.sellerMail.TabIndex = 39;
+            this.sellerEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.sellerEmail.FillColor = System.Drawing.Color.White;
+            this.sellerEmail.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.sellerEmail.Location = new System.Drawing.Point(279, 270);
+            this.sellerEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.sellerEmail.Maximum = 2147483647D;
+            this.sellerEmail.Minimum = -2147483648D;
+            this.sellerEmail.MinimumSize = new System.Drawing.Size(1, 1);
+            this.sellerEmail.Name = "sellerEmail";
+            this.sellerEmail.Padding = new System.Windows.Forms.Padding(5);
+            this.sellerEmail.Size = new System.Drawing.Size(166, 29);
+            this.sellerEmail.TabIndex = 39;
             // 
             // sellerJikwi
             // 
@@ -104,20 +105,20 @@ namespace CarManager0323.UI
             this.sellerJikwi.Size = new System.Drawing.Size(166, 29);
             this.sellerJikwi.TabIndex = 38;
             // 
-            // sellerTell
+            // sellerTel
             // 
-            this.sellerTell.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.sellerTell.FillColor = System.Drawing.Color.White;
-            this.sellerTell.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.sellerTell.Location = new System.Drawing.Point(279, 158);
-            this.sellerTell.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.sellerTell.Maximum = 2147483647D;
-            this.sellerTell.Minimum = -2147483648D;
-            this.sellerTell.MinimumSize = new System.Drawing.Size(1, 1);
-            this.sellerTell.Name = "sellerTell";
-            this.sellerTell.Padding = new System.Windows.Forms.Padding(5);
-            this.sellerTell.Size = new System.Drawing.Size(166, 29);
-            this.sellerTell.TabIndex = 37;
+            this.sellerTel.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.sellerTel.FillColor = System.Drawing.Color.White;
+            this.sellerTel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.sellerTel.Location = new System.Drawing.Point(279, 158);
+            this.sellerTel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.sellerTel.Maximum = 2147483647D;
+            this.sellerTel.Minimum = -2147483648D;
+            this.sellerTel.MinimumSize = new System.Drawing.Size(1, 1);
+            this.sellerTel.Name = "sellerTel";
+            this.sellerTel.Padding = new System.Windows.Forms.Padding(5);
+            this.sellerTel.Size = new System.Drawing.Size(166, 29);
+            this.sellerTel.TabIndex = 37;
             // 
             // uiSymbolLabel4
             // 
@@ -190,20 +191,20 @@ namespace CarManager0323.UI
             this.uiSymbolLabel1.TabIndex = 32;
             this.uiSymbolLabel1.Text = "이 름";
             // 
-            // sellerCompany
+            // sellerOffice
             // 
-            this.sellerCompany.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.sellerCompany.FillColor = System.Drawing.Color.White;
-            this.sellerCompany.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.sellerCompany.Location = new System.Drawing.Point(279, 326);
-            this.sellerCompany.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.sellerCompany.Maximum = 2147483647D;
-            this.sellerCompany.Minimum = -2147483648D;
-            this.sellerCompany.MinimumSize = new System.Drawing.Size(1, 1);
-            this.sellerCompany.Name = "sellerCompany";
-            this.sellerCompany.Padding = new System.Windows.Forms.Padding(5);
-            this.sellerCompany.Size = new System.Drawing.Size(166, 29);
-            this.sellerCompany.TabIndex = 43;
+            this.sellerOffice.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.sellerOffice.FillColor = System.Drawing.Color.White;
+            this.sellerOffice.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.sellerOffice.Location = new System.Drawing.Point(279, 326);
+            this.sellerOffice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.sellerOffice.Maximum = 2147483647D;
+            this.sellerOffice.Minimum = -2147483648D;
+            this.sellerOffice.MinimumSize = new System.Drawing.Size(1, 1);
+            this.sellerOffice.Name = "sellerOffice";
+            this.sellerOffice.Padding = new System.Windows.Forms.Padding(5);
+            this.sellerOffice.Size = new System.Drawing.Size(166, 29);
+            this.sellerOffice.TabIndex = 43;
             // 
             // uiSymbolLabel5
             // 
@@ -224,13 +225,13 @@ namespace CarManager0323.UI
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 450);
-            this.Controls.Add(this.sellerCompany);
+            this.Controls.Add(this.sellerOffice);
             this.Controls.Add(this.uiSymbolLabel5);
             this.Controls.Add(this.sellerCancel);
             this.Controls.Add(this.sellerOK);
-            this.Controls.Add(this.sellerMail);
+            this.Controls.Add(this.sellerEmail);
             this.Controls.Add(this.sellerJikwi);
-            this.Controls.Add(this.sellerTell);
+            this.Controls.Add(this.sellerTel);
             this.Controls.Add(this.uiSymbolLabel4);
             this.Controls.Add(this.uiSymbolLabel3);
             this.Controls.Add(this.uiSymbolLabel2);
@@ -247,15 +248,15 @@ namespace CarManager0323.UI
 
         private Sunny.UI.UISymbolButton sellerCancel;
         private Sunny.UI.UISymbolButton sellerOK;
-        private Sunny.UI.UITextBox sellerMail;
+        private Sunny.UI.UITextBox sellerEmail;
         private Sunny.UI.UITextBox sellerJikwi;
-        private Sunny.UI.UITextBox sellerTell;
+        private Sunny.UI.UITextBox sellerTel;
         private Sunny.UI.UISymbolLabel uiSymbolLabel4;
         private Sunny.UI.UISymbolLabel uiSymbolLabel3;
         private Sunny.UI.UISymbolLabel uiSymbolLabel2;
         private Sunny.UI.UITextBox sellerName;
         private Sunny.UI.UISymbolLabel uiSymbolLabel1;
-        private Sunny.UI.UITextBox sellerCompany;
+        private Sunny.UI.UITextBox sellerOffice;
         private Sunny.UI.UISymbolLabel uiSymbolLabel5;
     }
 }

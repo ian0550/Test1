@@ -31,9 +31,9 @@ namespace CarManager0323.UI
         {
             this.custCancel = new Sunny.UI.UISymbolButton();
             this.custOK = new Sunny.UI.UISymbolButton();
-            this.custMail = new Sunny.UI.UITextBox();
+            this.custEmail = new Sunny.UI.UITextBox();
             this.custAddr = new Sunny.UI.UITextBox();
-            this.custTell = new Sunny.UI.UITextBox();
+            this.custTel = new Sunny.UI.UITextBox();
             this.uiSymbolLabel4 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel3 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel2 = new Sunny.UI.UISymbolLabel();
@@ -71,21 +71,22 @@ namespace CarManager0323.UI
             this.custOK.Style = Sunny.UI.UIStyle.Custom;
             this.custOK.TabIndex = 30;
             this.custOK.Text = "확 인";
+            this.custOK.Click += new System.EventHandler(this.custOK_Click);
             // 
-            // custMail
+            // custEmail
             // 
-            this.custMail.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.custMail.FillColor = System.Drawing.Color.White;
-            this.custMail.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.custMail.Location = new System.Drawing.Point(283, 311);
-            this.custMail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.custMail.Maximum = 2147483647D;
-            this.custMail.Minimum = -2147483648D;
-            this.custMail.MinimumSize = new System.Drawing.Size(1, 1);
-            this.custMail.Name = "custMail";
-            this.custMail.Padding = new System.Windows.Forms.Padding(5);
-            this.custMail.Size = new System.Drawing.Size(166, 29);
-            this.custMail.TabIndex = 29;
+            this.custEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.custEmail.FillColor = System.Drawing.Color.White;
+            this.custEmail.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.custEmail.Location = new System.Drawing.Point(283, 311);
+            this.custEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.custEmail.Maximum = 2147483647D;
+            this.custEmail.Minimum = -2147483648D;
+            this.custEmail.MinimumSize = new System.Drawing.Size(1, 1);
+            this.custEmail.Name = "custEmail";
+            this.custEmail.Padding = new System.Windows.Forms.Padding(5);
+            this.custEmail.Size = new System.Drawing.Size(166, 29);
+            this.custEmail.TabIndex = 29;
             // 
             // custAddr
             // 
@@ -102,20 +103,20 @@ namespace CarManager0323.UI
             this.custAddr.Size = new System.Drawing.Size(166, 29);
             this.custAddr.TabIndex = 28;
             // 
-            // custTell
+            // custTel
             // 
-            this.custTell.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.custTell.FillColor = System.Drawing.Color.White;
-            this.custTell.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.custTell.Location = new System.Drawing.Point(283, 167);
-            this.custTell.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.custTell.Maximum = 2147483647D;
-            this.custTell.Minimum = -2147483648D;
-            this.custTell.MinimumSize = new System.Drawing.Size(1, 1);
-            this.custTell.Name = "custTell";
-            this.custTell.Padding = new System.Windows.Forms.Padding(5);
-            this.custTell.Size = new System.Drawing.Size(166, 29);
-            this.custTell.TabIndex = 27;
+            this.custTel.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.custTel.FillColor = System.Drawing.Color.White;
+            this.custTel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.custTel.Location = new System.Drawing.Point(283, 167);
+            this.custTel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.custTel.Maximum = 2147483647D;
+            this.custTel.Minimum = -2147483648D;
+            this.custTel.MinimumSize = new System.Drawing.Size(1, 1);
+            this.custTel.Name = "custTel";
+            this.custTel.Padding = new System.Windows.Forms.Padding(5);
+            this.custTel.Size = new System.Drawing.Size(166, 29);
+            this.custTel.TabIndex = 27;
             // 
             // uiSymbolLabel4
             // 
@@ -195,9 +196,9 @@ namespace CarManager0323.UI
             this.ClientSize = new System.Drawing.Size(560, 450);
             this.Controls.Add(this.custCancel);
             this.Controls.Add(this.custOK);
-            this.Controls.Add(this.custMail);
+            this.Controls.Add(this.custEmail);
             this.Controls.Add(this.custAddr);
-            this.Controls.Add(this.custTell);
+            this.Controls.Add(this.custTel);
             this.Controls.Add(this.uiSymbolLabel4);
             this.Controls.Add(this.uiSymbolLabel3);
             this.Controls.Add(this.uiSymbolLabel2);
@@ -212,9 +213,9 @@ namespace CarManager0323.UI
         #endregion
         private Sunny.UI.UISymbolButton custCancel;
         private Sunny.UI.UISymbolButton custOK;
-        private Sunny.UI.UITextBox custMail;
+        private Sunny.UI.UITextBox custEmail;
         private Sunny.UI.UITextBox custAddr;
-        private Sunny.UI.UITextBox custTell;
+        private Sunny.UI.UITextBox custTel;
         private Sunny.UI.UISymbolLabel uiSymbolLabel4;
         private Sunny.UI.UISymbolLabel uiSymbolLabel3;
         private Sunny.UI.UISymbolLabel uiSymbolLabel2;

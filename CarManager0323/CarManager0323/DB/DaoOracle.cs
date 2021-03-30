@@ -312,14 +312,15 @@ namespace CarManager0323.DB
             }
         }
 
-        public void insertDeal()
+        public void insertDeal(Deal deal)
         {
             try
             {
-                string sql = "insert into deal_t (d_id, d_date, se_id, c_id, car_id ) " +
+                string sql =string.Format( "insert into deal_t (d_id, d_date, se_id, c_id, car_id ) " +
                             "(select DEAL_T_SEQ.nextval, sysdate, s.se_id, cu.c_id, ca.car_id " +
                             "from seller_t s natural join customer_t cu natural join car_t ca " +
-                            "where s.se_id = cu.c_id and cu.c_id = ca.car_id) "; 
+                            "where cu.c_name ='{0}' and ca.car_model='{1}' and s.se_name ='{2}')" , 
+                            deal.Customer.Name, deal.Car.Model, deal.Seller.Name); 
                 cmd.Connection = conn;
                 cmd.CommandText = sql;
                 cmd.ExecuteNonQuery();
@@ -342,6 +343,42 @@ namespace CarManager0323.DB
             catch (OracleException e)
             {
                 errorMsg("insertCar()", e);
+            }
+        }
+
+        public void insertCustomer(Customer cust)
+        {
+            try
+            {
+                string sql = string.Format("insert into customer_t values " +
+                   "(customer_t_SEQ.nextval, " +
+                   "'{0}', '{1}', '{2}', '{3}')",
+                   cust.Name, cust.Tel, cust.Addr, cust.Email);
+                cmd.Connection = conn;
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+            }
+            catch (OracleException e)
+            {
+                errorMsg("insertSeller()", e);
+            }
+        }
+
+        public void insertSeller(Seller seller)
+        {
+            try
+            {
+                string sql = string.Format("insert into seller_t values " +
+                    "(seller_t_SEQ.nextval, " +
+                    "'{0}', {1}, '{2}', '{3}', '{4}')",
+                    seller.Name, seller.Tel, seller.Jikwi, seller.Email, seller.Office_name);
+                cmd.Connection = conn;
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+            }
+            catch (OracleException e)
+            {
+                errorMsg("insertSeller()", e);
             }
         }
     }
