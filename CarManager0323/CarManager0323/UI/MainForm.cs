@@ -71,7 +71,8 @@ namespace CarManager0323
                 MessageBox.Show("구매 내역 정보가 누락되었습니다.");
                 return;
             }
-            ora.insertDeal(list[0]);
+            //ora.insertDeal(list[0]);
+            ora.insertDeal(list[0].Customer, list[0].Car, list[0].Seller);
             dHandler.dealListClear();
         }
 
@@ -88,6 +89,16 @@ namespace CarManager0323
         private void appExit_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void selectDeal_Click(object sender, EventArgs e)
+        {
+            new DealView(ora, dHandler).ShowDialog();
+        }
+
+        private void appHelp_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -205,6 +205,7 @@ namespace CarManager0323.UI
             this.Controls.Add(this.custName);
             this.Controls.Add(this.uiSymbolLabel1);
             this.Name = "CustInsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "고객 정보 추가";
             this.ResumeLayout(false);
 

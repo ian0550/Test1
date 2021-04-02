@@ -33,3 +33,5 @@ D:\Test1\CarManager0323\CarManager0323\obj\Debug\CarManager0323.UI.CarInsForm.re
 D:\Test1\CarManager0323\CarManager0323\obj\Debug\CarManager0323.UI.CustInsForm.resources
 D:\Test1\CarManager0323\CarManager0323\obj\Debug\CarManager0323.UI.SellerInsForm.resources
 D:\Test1\CarManager0323\CarManager0323\obj\Debug\CarManager0323.csprojAssemblyReference.cache
+D:\Test1\CarManager0323\CarManager0323\obj\Debug\CarManager0323.UI.CustDetailView.resources
+D:\Test1\CarManager0323\CarManager0323\obj\Debug\CarManager0323.UI.DealView.resources

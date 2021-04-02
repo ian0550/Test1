@@ -67,6 +67,7 @@
     <Compile Include="Model\Car.cs" />
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Deal.cs" />
+    <Compile Include="Model\DealResult.cs" />
     <Compile Include="Model\Seller.cs" />
     <Compile Include="UI\CarInsForm.cs">
       <SubType>Form</SubType>
@@ -74,11 +75,23 @@
     <Compile Include="UI\CarInsForm.Designer.cs">
       <DependentUpon>CarInsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\CustDetailView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CustDetailView.Designer.cs">
+      <DependentUpon>CustDetailView.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\CustInsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\CustInsForm.Designer.cs">
       <DependentUpon>CustInsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DealView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DealView.Designer.cs">
+      <DependentUpon>DealView.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\MainForm.cs">
       <SubType>Form</SubType>
@@ -97,8 +110,14 @@
     <EmbeddedResource Include="UI\CarInsForm.resx">
       <DependentUpon>CarInsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\CustDetailView.resx">
+      <DependentUpon>CustDetailView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\CustInsForm.resx">
       <DependentUpon>CustInsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DealView.resx">
+      <DependentUpon>DealView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
