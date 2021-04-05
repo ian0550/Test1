@@ -1,0 +1,7 @@
+C:\Users\KB\source\repos\210405_practice\210405_practice\bin\Debug\210405_practice.exe.config
+C:\Users\KB\source\repos\210405_practice\210405_practice\bin\Debug\210405_practice.exe
+C:\Users\KB\source\repos\210405_practice\210405_practice\bin\Debug\210405_practice.pdb
+C:\Users\KB\source\repos\210405_practice\210405_practice\obj\Debug\210405_practice.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\210405_practice\210405_practice\obj\Debug\210405_practice.exe
+C:\Users\KB\source\repos\210405_practice\210405_practice\obj\Debug\210405_practice.pdb
+C:\Users\KB\source\repos\210405_practice\210405_practice\obj\Debug\210405_practice.csprojAssemblyReference.cache
