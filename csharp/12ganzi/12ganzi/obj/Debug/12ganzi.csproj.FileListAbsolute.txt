@@ -1,0 +1,10 @@
+D:\Test1\csharp\12ganzi\12ganzi\bin\Debug\12ganzi.exe.config
+D:\Test1\csharp\12ganzi\12ganzi\bin\Debug\12ganzi.exe
+D:\Test1\csharp\12ganzi\12ganzi\bin\Debug\12ganzi.pdb
+D:\Test1\csharp\12ganzi\12ganzi\obj\Debug\12ganzi.csprojAssemblyReference.cache
+D:\Test1\csharp\12ganzi\12ganzi\obj\Debug\_12ganzi.Form1.resources
+D:\Test1\csharp\12ganzi\12ganzi\obj\Debug\_12ganzi.Properties.Resources.resources
+D:\Test1\csharp\12ganzi\12ganzi\obj\Debug\12ganzi.csproj.GenerateResource.cache
+D:\Test1\csharp\12ganzi\12ganzi\obj\Debug\12ganzi.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\12ganzi\12ganzi\obj\Debug\12ganzi.exe
+D:\Test1\csharp\12ganzi\12ganzi\obj\Debug\12ganzi.pdb
