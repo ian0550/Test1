@@ -1,0 +1,7 @@
+D:\Test1\csharp\Study0407\Study0407\bin\Debug\Study0407.exe.config
+D:\Test1\csharp\Study0407\Study0407\bin\Debug\Study0407.exe
+D:\Test1\csharp\Study0407\Study0407\bin\Debug\Study0407.pdb
+D:\Test1\csharp\Study0407\Study0407\obj\Debug\Study0407.csprojAssemblyReference.cache
+D:\Test1\csharp\Study0407\Study0407\obj\Debug\Study0407.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Study0407\Study0407\obj\Debug\Study0407.exe
+D:\Test1\csharp\Study0407\Study0407\obj\Debug\Study0407.pdb

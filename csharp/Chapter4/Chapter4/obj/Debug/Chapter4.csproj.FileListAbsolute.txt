@@ -1,0 +1,7 @@
+D:\Test1\csharp\Chapter4\Chapter4\bin\Debug\Chapter4.exe.config
+D:\Test1\csharp\Chapter4\Chapter4\bin\Debug\Chapter4.exe
+D:\Test1\csharp\Chapter4\Chapter4\bin\Debug\Chapter4.pdb
+D:\Test1\csharp\Chapter4\Chapter4\obj\Debug\Chapter4.csprojAssemblyReference.cache
+D:\Test1\csharp\Chapter4\Chapter4\obj\Debug\Chapter4.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chapter4\Chapter4\obj\Debug\Chapter4.exe
+D:\Test1\csharp\Chapter4\Chapter4\obj\Debug\Chapter4.pdb
