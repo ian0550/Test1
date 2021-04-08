@@ -1,0 +1,7 @@
+D:\Test1\csharp\yester_answer\answer\answer\bin\Debug\answer.exe.config
+D:\Test1\csharp\yester_answer\answer\answer\bin\Debug\answer.exe
+D:\Test1\csharp\yester_answer\answer\answer\bin\Debug\answer.pdb
+D:\Test1\csharp\yester_answer\answer\answer\obj\Debug\answer.csprojAssemblyReference.cache
+D:\Test1\csharp\yester_answer\answer\answer\obj\Debug\answer.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\yester_answer\answer\answer\obj\Debug\answer.exe
+D:\Test1\csharp\yester_answer\answer\answer\obj\Debug\answer.pdb

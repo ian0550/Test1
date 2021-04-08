@@ -1,0 +1,10 @@
+D:\Test1\csharp\Chapter05\Chapter05\bin\Debug\Chapter05.exe.config
+D:\Test1\csharp\Chapter05\Chapter05\bin\Debug\Chapter05.exe
+D:\Test1\csharp\Chapter05\Chapter05\bin\Debug\Chapter05.pdb
+D:\Test1\csharp\Chapter05\Chapter05\obj\Debug\Chapter05.csprojAssemblyReference.cache
+D:\Test1\csharp\Chapter05\Chapter05\obj\Debug\Chapter05.Form1.resources
+D:\Test1\csharp\Chapter05\Chapter05\obj\Debug\Chapter05.Properties.Resources.resources
+D:\Test1\csharp\Chapter05\Chapter05\obj\Debug\Chapter05.csproj.GenerateResource.cache
+D:\Test1\csharp\Chapter05\Chapter05\obj\Debug\Chapter05.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chapter05\Chapter05\obj\Debug\Chapter05.exe
+D:\Test1\csharp\Chapter05\Chapter05\obj\Debug\Chapter05.pdb

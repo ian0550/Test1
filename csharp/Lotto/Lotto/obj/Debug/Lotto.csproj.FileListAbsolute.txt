@@ -1,0 +1,10 @@
+D:\Test1\csharp\Lotto\Lotto\bin\Debug\Lotto.exe.config
+D:\Test1\csharp\Lotto\Lotto\bin\Debug\Lotto.exe
+D:\Test1\csharp\Lotto\Lotto\bin\Debug\Lotto.pdb
+D:\Test1\csharp\Lotto\Lotto\obj\Debug\Lotto.csprojAssemblyReference.cache
+D:\Test1\csharp\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+D:\Test1\csharp\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+D:\Test1\csharp\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.cache
+D:\Test1\csharp\Lotto\Lotto\obj\Debug\Lotto.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Lotto\Lotto\obj\Debug\Lotto.exe
+D:\Test1\csharp\Lotto\Lotto\obj\Debug\Lotto.pdb
