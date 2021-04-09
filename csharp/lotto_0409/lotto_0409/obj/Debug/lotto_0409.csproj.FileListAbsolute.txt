@@ -1,0 +1,10 @@
+D:\Test1\csharp\lotto_0409\lotto_0409\obj\Debug\lotto_0409.csprojAssemblyReference.cache
+D:\Test1\csharp\lotto_0409\lotto_0409\obj\Debug\lotto_0409.Form1.resources
+D:\Test1\csharp\lotto_0409\lotto_0409\obj\Debug\lotto_0409.Properties.Resources.resources
+D:\Test1\csharp\lotto_0409\lotto_0409\obj\Debug\lotto_0409.csproj.GenerateResource.cache
+D:\Test1\csharp\lotto_0409\lotto_0409\obj\Debug\lotto_0409.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\lotto_0409\lotto_0409\bin\Debug\lotto_0409.exe.config
+D:\Test1\csharp\lotto_0409\lotto_0409\bin\Debug\lotto_0409.exe
+D:\Test1\csharp\lotto_0409\lotto_0409\bin\Debug\lotto_0409.pdb
+D:\Test1\csharp\lotto_0409\lotto_0409\obj\Debug\lotto_0409.exe
+D:\Test1\csharp\lotto_0409\lotto_0409\obj\Debug\lotto_0409.pdb

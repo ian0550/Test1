@@ -24,7 +24,7 @@ namespace Lotto
 
             for (int i = 0; i < 7; i++)
             {
-                num[i] = r.Next(1, 7);
+                num[i] = r.Next(1, 46);
                 for (int j = 1; j < i; j++)
                 {
                     if (num[i] == num[j])

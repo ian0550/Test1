@@ -40,7 +40,7 @@ namespace Lotto
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(39, 46);
+            this.button1.Location = new System.Drawing.Point(51, 46);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -51,54 +51,72 @@ namespace Lotto
             // label_num6
             // 
             this.label_num6.AutoSize = true;
-            this.label_num6.Location = new System.Drawing.Point(457, 52);
+            this.label_num6.BackColor = System.Drawing.Color.White;
+            this.label_num6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label_num6.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label_num6.Location = new System.Drawing.Point(492, 45);
             this.label_num6.Name = "label_num6";
-            this.label_num6.Size = new System.Drawing.Size(11, 12);
+            this.label_num6.Size = new System.Drawing.Size(26, 26);
             this.label_num6.TabIndex = 12;
             this.label_num6.Text = "-";
             // 
             // label_num5
             // 
             this.label_num5.AutoSize = true;
-            this.label_num5.Location = new System.Drawing.Point(394, 52);
+            this.label_num5.BackColor = System.Drawing.Color.White;
+            this.label_num5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label_num5.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label_num5.Location = new System.Drawing.Point(429, 45);
             this.label_num5.Name = "label_num5";
-            this.label_num5.Size = new System.Drawing.Size(11, 12);
+            this.label_num5.Size = new System.Drawing.Size(26, 26);
             this.label_num5.TabIndex = 11;
             this.label_num5.Text = "-";
             // 
             // label_num4
             // 
             this.label_num4.AutoSize = true;
-            this.label_num4.Location = new System.Drawing.Point(331, 52);
+            this.label_num4.BackColor = System.Drawing.Color.White;
+            this.label_num4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label_num4.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label_num4.Location = new System.Drawing.Point(366, 45);
             this.label_num4.Name = "label_num4";
-            this.label_num4.Size = new System.Drawing.Size(11, 12);
+            this.label_num4.Size = new System.Drawing.Size(26, 26);
             this.label_num4.TabIndex = 10;
             this.label_num4.Text = "-";
             // 
             // label_num3
             // 
             this.label_num3.AutoSize = true;
-            this.label_num3.Location = new System.Drawing.Point(268, 52);
+            this.label_num3.BackColor = System.Drawing.Color.White;
+            this.label_num3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label_num3.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label_num3.Location = new System.Drawing.Point(303, 45);
             this.label_num3.Name = "label_num3";
-            this.label_num3.Size = new System.Drawing.Size(11, 12);
+            this.label_num3.Size = new System.Drawing.Size(26, 26);
             this.label_num3.TabIndex = 9;
             this.label_num3.Text = "-";
             // 
             // label_num2
             // 
             this.label_num2.AutoSize = true;
-            this.label_num2.Location = new System.Drawing.Point(205, 52);
+            this.label_num2.BackColor = System.Drawing.Color.White;
+            this.label_num2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label_num2.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label_num2.Location = new System.Drawing.Point(240, 45);
             this.label_num2.Name = "label_num2";
-            this.label_num2.Size = new System.Drawing.Size(11, 12);
+            this.label_num2.Size = new System.Drawing.Size(26, 26);
             this.label_num2.TabIndex = 8;
             this.label_num2.Text = "-";
             // 
             // label_num1
             // 
             this.label_num1.AutoSize = true;
-            this.label_num1.Location = new System.Drawing.Point(142, 52);
+            this.label_num1.BackColor = System.Drawing.Color.White;
+            this.label_num1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label_num1.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label_num1.Location = new System.Drawing.Point(177, 45);
             this.label_num1.Name = "label_num1";
-            this.label_num1.Size = new System.Drawing.Size(11, 12);
+            this.label_num1.Size = new System.Drawing.Size(26, 26);
             this.label_num1.TabIndex = 7;
             this.label_num1.Text = "-";
             // 
@@ -106,7 +124,7 @@ namespace Lotto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 115);
+            this.ClientSize = new System.Drawing.Size(611, 117);
             this.Controls.Add(this.label_num6);
             this.Controls.Add(this.label_num5);
             this.Controls.Add(this.label_num4);
