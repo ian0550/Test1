@@ -29,6 +29,19 @@ namespace Chapter05
             //MessageBox.Show(r.Next(1,46).ToString());
             //MessageBox.Show의 괄호 안에는 string 타입만 들어감
 
+            //숫자 순서 정렬 방법 1.
+            //Array.Sort(randomNumbers);
+
+            //숫자 순서 정렬 방법 2.
+            for (int i = 0; i < randomNumbers.Length; i++)
+            {
+                for (int j = 0; j < randomNumbers.Length; j++)
+                {
+                    int temp2 = randomNumbers[j];
+                    randomNumbers[j] = randomNumbers[j + 1];
+                    randomNumbers[j + 1] = temp2;
+                }
+            }
             label_num1.Text = r.Next(1,46).ToString();
             label_num2.Text = r.Next(1, 46).ToString();
             label_num3.Text = r.Next(1, 46).ToString();

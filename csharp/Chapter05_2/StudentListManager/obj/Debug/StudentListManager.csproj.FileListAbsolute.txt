@@ -1,0 +1,9 @@
+D:\Test1\csharp\Chapter05_2\StudentListManager\bin\Debug\StudentListManager.exe.config
+D:\Test1\csharp\Chapter05_2\StudentListManager\bin\Debug\StudentListManager.exe
+D:\Test1\csharp\Chapter05_2\StudentListManager\bin\Debug\StudentListManager.pdb
+D:\Test1\csharp\Chapter05_2\StudentListManager\obj\Debug\StudentListManager.Properties.Resources.resources
+D:\Test1\csharp\Chapter05_2\StudentListManager\obj\Debug\StudentListManager.csproj.GenerateResource.cache
+D:\Test1\csharp\Chapter05_2\StudentListManager\obj\Debug\StudentListManager.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chapter05_2\StudentListManager\obj\Debug\StudentListManager.exe
+D:\Test1\csharp\Chapter05_2\StudentListManager\obj\Debug\StudentListManager.pdb
+D:\Test1\csharp\Chapter05_2\StudentListManager\obj\Debug\StudentListManager.csprojAssemblyReference.cache

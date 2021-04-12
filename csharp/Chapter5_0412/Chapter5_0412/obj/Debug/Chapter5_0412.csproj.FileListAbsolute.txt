@@ -1,0 +1,14 @@
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\bin\Debug\Chapter5_0412.exe.config
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\bin\Debug\Chapter5_0412.exe
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\bin\Debug\Chapter5_0412.pdb
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.csprojAssemblyReference.cache
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.Form1.resources
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.Properties.Resources.resources
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.exe
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.pdb
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.pro1.resources
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.Pro2.resources
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.Pro3.resources
+C:\Users\KB\source\repos\Chapter5_0412\Chapter5_0412\obj\Debug\Chapter5_0412.Pro4.resources
