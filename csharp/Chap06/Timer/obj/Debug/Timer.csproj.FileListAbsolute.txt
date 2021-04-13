@@ -1,0 +1,10 @@
+D:\Test1\csharp\Chap06\Timer\bin\Debug\Timer.exe.config
+D:\Test1\csharp\Chap06\Timer\bin\Debug\Timer.exe
+D:\Test1\csharp\Chap06\Timer\bin\Debug\Timer.pdb
+D:\Test1\csharp\Chap06\Timer\obj\Debug\Timer.csprojAssemblyReference.cache
+D:\Test1\csharp\Chap06\Timer\obj\Debug\Timer.Form1.resources
+D:\Test1\csharp\Chap06\Timer\obj\Debug\Timer.Properties.Resources.resources
+D:\Test1\csharp\Chap06\Timer\obj\Debug\Timer.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap06\Timer\obj\Debug\Timer.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap06\Timer\obj\Debug\Timer.exe
+D:\Test1\csharp\Chap06\Timer\obj\Debug\Timer.pdb

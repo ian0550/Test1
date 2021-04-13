@@ -1,0 +1,10 @@
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\bin\Debug\RandomNumberGameTimer.exe.config
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\bin\Debug\RandomNumberGameTimer.exe
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\bin\Debug\RandomNumberGameTimer.pdb
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.csprojAssemblyReference.cache
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.Form1.resources
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.Properties.Resources.resources
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.exe
+D:\Test1\csharp\Chap06\RandomNumberGameTimer\obj\Debug\RandomNumberGameTimer.pdb

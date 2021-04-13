@@ -1,0 +1,10 @@
+D:\Test1\csharp\Chap06\Chap06\bin\Debug\Chap06.exe.config
+D:\Test1\csharp\Chap06\Chap06\bin\Debug\Chap06.exe
+D:\Test1\csharp\Chap06\Chap06\bin\Debug\Chap06.pdb
+D:\Test1\csharp\Chap06\Chap06\obj\Debug\Chap06.csprojAssemblyReference.cache
+D:\Test1\csharp\Chap06\Chap06\obj\Debug\Chap06.Form1.resources
+D:\Test1\csharp\Chap06\Chap06\obj\Debug\Chap06.Properties.Resources.resources
+D:\Test1\csharp\Chap06\Chap06\obj\Debug\Chap06.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap06\Chap06\obj\Debug\Chap06.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap06\Chap06\obj\Debug\Chap06.exe
+D:\Test1\csharp\Chap06\Chap06\obj\Debug\Chap06.pdb

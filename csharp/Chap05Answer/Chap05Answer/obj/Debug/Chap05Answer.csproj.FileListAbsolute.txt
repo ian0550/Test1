@@ -1,0 +1,10 @@
+D:\Test1\csharp\Chap05Answer\Chap05Answer\bin\Debug\Chap05Answer.exe.config
+D:\Test1\csharp\Chap05Answer\Chap05Answer\bin\Debug\Chap05Answer.exe
+D:\Test1\csharp\Chap05Answer\Chap05Answer\bin\Debug\Chap05Answer.pdb
+D:\Test1\csharp\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.csprojAssemblyReference.cache
+D:\Test1\csharp\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.Form1.resources
+D:\Test1\csharp\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.Properties.Resources.resources
+D:\Test1\csharp\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.exe
+D:\Test1\csharp\Chap05Answer\Chap05Answer\obj\Debug\Chap05Answer.pdb
