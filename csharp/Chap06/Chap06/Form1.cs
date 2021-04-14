@@ -97,11 +97,11 @@ namespace Chap06
         {
             if (r < 0)
             {
-                MessageBox.Show(r+"은 음수입니다.");
+                MessageBox.Show(r + "은 음수입니다.");
                 return -1;
             }
             else
-                return 
+                return;
         }
     }
 }

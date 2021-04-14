@@ -1,0 +1,10 @@
+D:\Test1\csharp\Chap06\DescriptFunction\bin\Debug\DescriptFunction.exe.config
+D:\Test1\csharp\Chap06\DescriptFunction\bin\Debug\DescriptFunction.exe
+D:\Test1\csharp\Chap06\DescriptFunction\bin\Debug\DescriptFunction.pdb
+D:\Test1\csharp\Chap06\DescriptFunction\obj\Debug\DescriptFunction.csprojAssemblyReference.cache
+D:\Test1\csharp\Chap06\DescriptFunction\obj\Debug\DescriptFunction.Form1.resources
+D:\Test1\csharp\Chap06\DescriptFunction\obj\Debug\DescriptFunction.Properties.Resources.resources
+D:\Test1\csharp\Chap06\DescriptFunction\obj\Debug\DescriptFunction.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap06\DescriptFunction\obj\Debug\DescriptFunction.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap06\DescriptFunction\obj\Debug\DescriptFunction.exe
+D:\Test1\csharp\Chap06\DescriptFunction\obj\Debug\DescriptFunction.pdb

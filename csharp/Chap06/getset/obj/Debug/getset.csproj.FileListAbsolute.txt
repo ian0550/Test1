@@ -1,0 +1,9 @@
+D:\Test1\csharp\Chap06\getset\bin\Debug\getset.exe.config
+D:\Test1\csharp\Chap06\getset\bin\Debug\getset.exe
+D:\Test1\csharp\Chap06\getset\bin\Debug\getset.pdb
+D:\Test1\csharp\Chap06\getset\obj\Debug\getset.Form1.resources
+D:\Test1\csharp\Chap06\getset\obj\Debug\getset.Properties.Resources.resources
+D:\Test1\csharp\Chap06\getset\obj\Debug\getset.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap06\getset\obj\Debug\getset.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap06\getset\obj\Debug\getset.exe
+D:\Test1\csharp\Chap06\getset\obj\Debug\getset.pdb
