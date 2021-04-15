@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3056B6C4-0396-4891-ABD9-BFB125BACAE5}</ProjectGuid>
+    <ProjectGuid>{B0CE5604-89E3-44C6-BD9F-B2CFD26B60F6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Chap06</RootNamespace>
-    <AssemblyName>Chap06</AssemblyName>
+    <RootNamespace>StudyStruct</RootNamespace>
+    <AssemblyName>StudyStruct</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

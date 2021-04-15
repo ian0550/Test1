@@ -1,0 +1,9 @@
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\bin\Debug\RecursiveFunction.exe.config
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\bin\Debug\RecursiveFunction.exe
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\bin\Debug\RecursiveFunction.pdb
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\obj\Debug\RecursiveFunction.Form1.resources
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\obj\Debug\RecursiveFunction.Properties.Resources.resources
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\obj\Debug\RecursiveFunction.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\obj\Debug\RecursiveFunction.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\obj\Debug\RecursiveFunction.exe
+D:\Test1\csharp\Chap06_0415\RecursiveFunction\obj\Debug\RecursiveFunction.pdb

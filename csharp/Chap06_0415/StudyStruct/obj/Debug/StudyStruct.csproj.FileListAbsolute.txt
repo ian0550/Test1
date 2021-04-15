@@ -1,0 +1,10 @@
+D:\Test1\csharp\Chap06_0415\StudyStruct\bin\Debug\StudyStruct.exe.config
+D:\Test1\csharp\Chap06_0415\StudyStruct\bin\Debug\StudyStruct.exe
+D:\Test1\csharp\Chap06_0415\StudyStruct\bin\Debug\StudyStruct.pdb
+D:\Test1\csharp\Chap06_0415\StudyStruct\obj\Debug\StudyStruct.Form1.resources
+D:\Test1\csharp\Chap06_0415\StudyStruct\obj\Debug\StudyStruct.Properties.Resources.resources
+D:\Test1\csharp\Chap06_0415\StudyStruct\obj\Debug\StudyStruct.csproj.GenerateResource.cache
+D:\Test1\csharp\Chap06_0415\StudyStruct\obj\Debug\StudyStruct.csproj.CoreCompileInputs.cache
+D:\Test1\csharp\Chap06_0415\StudyStruct\obj\Debug\StudyStruct.exe
+D:\Test1\csharp\Chap06_0415\StudyStruct\obj\Debug\StudyStruct.pdb
+D:\Test1\csharp\Chap06_0415\StudyStruct\obj\Debug\StudyStruct.csprojAssemblyReference.cache
